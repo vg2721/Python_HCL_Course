@@ -1,0 +1,863 @@
+Order_ID,Order_Date,Restaurant_Name,Cuisine,Dish_Name,Category,Quantity,Unit_Price,Order_Hour,Delivery_Mode
+FO000000,2025-08-31,Pizza Corner,Healthy,Pasta,Main Course,1.0,336.58,17,Dine-in
+FO000001,2025-01-16,Green Bowl,Italian,Salad,Beverage,5.0,789.81,12,Dine-in
+FO000002,2026-05-31,Tandoori House,Indian,Burger,Dessert,5.0,717.33,19,Delivery
+FO000003,2025-01-05,Green Bowl,Healthy,Paneer Curry,Snack,2.0,484.37,15,Delivery
+FO000004,2025-03-26,Pizza Corner,Indian,Burger,Dessert,5.0,482.8,8,Dine-in
+FO000005,2026-10-13,Tandoori House,Mexican,Biryani,Snack,5.0,463.66,20,Pickup
+FO000006,2025-04-18,Green Bowl,Indian,Burger,Dessert,2.0,522.86,9,Pickup
+FO000007,2025-07-10,Tandoori House,Healthy,Biryani,Snack,5.0,783.7,8,Dine-in
+FO000008,2025-10-01,Tandoori House,Mexican,Noodles,Main Course,5.0,140.49,19,Dine-in
+FO000009,2025-04-03,Spice Hub,Healthy,Tacos,Dessert,2.0,398.51,9,Pickup
+FO000010,2026-03-15,Spice Hub,Chinese,Biryani,Snack,3.0,695.1,16,Dine-in
+FO000011,2025-07-28,Spice Hub,Healthy,Biryani,Snack,2.0,870.53,13,Pickup
+FO000012,2025-07-19,Green Bowl,Healthy,Tacos,Main Course,1.0,205.59,23,Pickup
+FO000013,2026-01-19,Tandoori House,Italian,Salad,Snack,5.0,115.65,12,Delivery
+FO000014,2025-08-05,Pizza Corner,Italian,Noodles,Dessert,3.0,740.18,9,Delivery
+FO000015,2025-05-26,Pizza Corner,Chinese,Biryani,Snack,1.0,875.74,10,Dine-in
+FO000016,2026-07-31,Urban Cafe,Mexican,Paneer Curry,Snack,3.0,666.05,23,Dine-in
+FO000017,2026-01-24,Spice Hub,Mexican,Tacos,Snack,4.0,534.32,23,Pickup
+FO000018,2026-08-26,Spice Hub,Indian,Biryani,Beverage,5.0,271.37,10,Dine-in
+FO000019,2025-08-28,Spice Hub,Italian,Tacos,Dessert,4.0,865.86,13,Delivery
+FO000020,2026-09-03,Spice Hub,Italian,Pizza,Main Course,2.0,672.26,8,Delivery
+FO000021,2026-08-18,Tandoori House,Italian,Tacos,Snack,5.0,649.17,21,Dine-in
+FO000022,2025-01-15,Spice Hub,Mexican,Biryani,Beverage,4.0,803.21,22,Dine-in
+FO000023,2025-03-26,Urban Cafe,Chinese,Noodles,Snack,3.0,798.04,19,Pickup
+FO000024,2026-06-19,Tandoori House,Indian,Biryani,Beverage,4.0,146.16,16,Pickup
+FO000025,2025-07-17,Urban Cafe,Italian,Burger,Snack,5.0,96.37,13,Pickup
+FO000026,2026-05-25,Pizza Corner,Chinese,Salad,Main Course,1.0,262.62,12,Delivery
+FO000027,2025-10-18,Green Bowl,Healthy,Pizza,Dessert,4.0,826.44,19,Delivery
+FO000028,2025-06-22,Pizza Corner,Mexican,Biryani,Beverage,4.0,517.59,17,Delivery
+FO000029,2025-05-27,Urban Cafe,Chinese,Pizza,Main Course,5.0,610.97,15,Pickup
+FO000030,2025-06-01,Tandoori House,Mexican,Burger,Main Course,3.0,363.71,14,Dine-in
+FO000031,2026-03-21,Pizza Corner,Mexican,Paneer Curry,Snack,2.0,428.37,19,Delivery
+FO000032,2025-01-24,Urban Cafe,Healthy,Salad,Dessert,2.0,326.02,23,Pickup
+FO000033,2025-05-07,Pizza Corner,Mexican,Tacos,Snack,3.0,851.09,9,Dine-in
+FO000034,2026-07-04,Pizza Corner,Italian,Noodles,Dessert,3.0,417.88,20,Dine-in
+FO000035,2025-08-02,Tandoori House,Chinese,Paneer Curry,Snack,5.0,765.44,15,Dine-in
+FO000036,2026-02-11,Urban Cafe,Chinese,Pizza,Main Course,5.0,207.44,18,Pickup
+FO000037,2025-07-20,Tandoori House,Chinese,Noodles,Main Course,3.0,340.14,20,Dine-in
+FO000038,2025-01-11,Pizza Corner,Healthy,Pizza,Snack,4.0,228.79,13,Delivery
+FO000039,2025-10-27,Green Bowl,Healthy,Pizza,Main Course,4.0,320.61,11,Dine-in
+FO000040,2025-05-31,Pizza Corner,Healthy,Pizza,Beverage,4.0,,8,Delivery
+FO000041,2026-05-08,Green Bowl,Healthy,Biryani,Dessert,4.0,195.99,23,Dine-in
+FO000042,2026-07-10,Tandoori House,Italian,Noodles,Dessert,1.0,519.5,20,Dine-in
+FO000043,2026-08-13,Spice Hub,Mexican,Biryani,Snack,3.0,82.56,19,Dine-in
+FO000044,2026-02-07,Pizza Corner,Indian,Noodles,Dessert,4.0,886.15,8,Delivery
+FO000045,2025-02-24,Tandoori House,Indian,Biryani,Dessert,3.0,109.18,22,Dine-in
+FO000046,2026-07-27,Spice Hub,Chinese,Burger,Snack,4.0,698.6,9,Dine-in
+FO000047,2026-07-20,Green Bowl,Indian,Pasta,Snack,2.0,792.79,12,Pickup
+FO000048,2025-04-09,Pizza Corner,Mexican,Pizza,Snack,5.0,896.91,17,Delivery
+FO000049,2025-09-30,Tandoori House,Healthy,Biryani,Snack,1.0,613.1,8,Pickup
+FO000050,2026-09-30,Spice Hub,Indian,Pizza,Main Course,4.0,577.39,20,Dine-in
+FO000051,2026-06-25,Urban Cafe,Mexican,Burger,Dessert,4.0,537.21,22,Dine-in
+FO000052,2025-05-19,Green Bowl,Chinese,Salad,Snack,1.0,706.98,14,Delivery
+FO000053,2026-02-24,Pizza Corner,Italian,Salad,Main Course,2.0,794.0,9,Delivery
+FO000054,2025-07-23,Spice Hub,Chinese,Biryani,Dessert,5.0,512.72,17,Pickup
+FO000055,2026-08-04,Tandoori House,Indian,Tacos,Main Course,4.0,670.53,20,Dine-in
+FO000056,2026-09-12,Green Bowl,Mexican,Burger,Dessert,4.0,869.17,23,Delivery
+FO000057,2026-06-08,Green Bowl,Chinese,Noodles,Main Course,5.0,171.72,12,Dine-in
+FO000058,2025-07-29,Pizza Corner,Italian,Tacos,Snack,1.0,563.58,12,Delivery
+FO000059,2025-09-21,Green Bowl,Italian,Pizza,Beverage,5.0,135.24,9,Delivery
+FO000060,2026-02-03,Urban Cafe,Italian,Pasta,Main Course,4.0,437.23,8,Dine-in
+FO000061,2026-09-27,Green Bowl,Indian,Tacos,Beverage,2.0,675.44,19,Delivery
+FO000062,2025-08-19,Spice Hub,Mexican,Noodles,Beverage,2.0,391.85,11,Delivery
+FO000063,2026-01-07,Tandoori House,Indian,Burger,Dessert,2.0,162.09,12,Dine-in
+FO000064,2026-05-10,Urban Cafe,Mexican,Paneer Curry,Snack,4.0,760.52,15,Dine-in
+FO000065,2025-09-07,Urban Cafe,Mexican,Pasta,Dessert,2.0,280.08,9,Dine-in
+FO000066,2025-07-28,Spice Hub,Chinese,Tacos,Dessert,2.0,491.92,20,Pickup
+FO000067,2025-09-19,Urban Cafe,Chinese,Paneer Curry,Dessert,3.0,202.84,17,Delivery
+FO000068,2025-10-23,Spice Hub,Indian,Salad,Beverage,4.0,891.25,14,Dine-in
+FO000069,2025-03-04,Spice Hub,Italian,Pasta,Main Course,3.0,393.82,11,Dine-in
+FO000070,2025-02-26,Pizza Corner,Indian,Paneer Curry,Beverage,1.0,753.77,17,Pickup
+FO000071,2026-04-13,Urban Cafe,Italian,Pasta,Beverage,1.0,395.33,19,Pickup
+FO000072,2026-09-09,Pizza Corner,Indian,Paneer Curry,Snack,5.0,366.71,17,Dine-in
+FO000073,2026-06-24,Urban Cafe,Healthy,Paneer Curry,Beverage,3.0,277.21,20,Pickup
+FO000074,2026-08-30,Green Bowl,Indian,Tacos,Beverage,1.0,411.72,15,Dine-in
+FO000075,2026-07-15,Urban Cafe,Mexican,Noodles,Beverage,2.0,797.71,9,Delivery
+FO000076,2026-06-23,Urban Cafe,Italian,Pizza,Beverage,1.0,622.56,10,Dine-in
+FO000077,2025-02-09,Tandoori House,Chinese,Salad,Beverage,2.0,123.53,20,Dine-in
+FO000078,2026-08-08,Green Bowl,Indian,Paneer Curry,Beverage,1.0,523.69,9,Delivery
+FO000079,2025-10-27,Spice Hub,Mexican,Paneer Curry,Snack,5.0,488.17,15,Pickup
+FO000080,2026-02-08,Tandoori House,Mexican,Noodles,Beverage,2.0,643.3,11,Delivery
+FO000081,2026-08-19,Tandoori House,Mexican,Salad,Main Course,1.0,699.36,20,Pickup
+FO000082,2025-02-27,Urban Cafe,Indian,Burger,Dessert,4.0,543.9,12,Dine-in
+FO000083,2025-06-19,Urban Cafe,Healthy,Salad,Dessert,5.0,798.24,20,Delivery
+FO000084,2025-02-17,Green Bowl,Healthy,Biryani,Snack,3.0,606.46,11,Dine-in
+FO000085,2025-10-08,Pizza Corner,Mexican,Tacos,Main Course,,357.17,17,Delivery
+FO000086,2026-06-10,Green Bowl,Indian,Pasta,Main Course,3.0,388.59,11,Pickup
+FO000087,2025-11-26,Spice Hub,Italian,Burger,Beverage,4.0,784.0,15,Pickup
+FO000088,2025-12-12,Spice Hub,Chinese,Pizza,Main Course,5.0,293.06,17,Pickup
+FO000089,2025-06-06,Tandoori House,Mexican,Tacos,Main Course,1.0,196.88,10,Delivery
+FO000090,2025-07-05,Urban Cafe,Mexican,Paneer Curry,Beverage,3.0,696.9,15,Pickup
+FO000091,2026-01-08,Green Bowl,Healthy,Burger,Snack,,430.54,19,Pickup
+FO000092,2025-01-26,Pizza Corner,Healthy,Tacos,Snack,3.0,265.87,12,Pickup
+FO000093,2025-10-24,Spice Hub,Healthy,Tacos,Snack,1.0,760.27,8,Delivery
+FO000094,2026-10-21,Spice Hub,Indian,Noodles,Beverage,3.0,231.67,11,Pickup
+FO000095,2026-01-17,Urban Cafe,Indian,Salad,Snack,3.0,680.6,14,Dine-in
+FO000096,2025-03-06,Pizza Corner,Healthy,Noodles,Main Course,5.0,358.95,10,Pickup
+FO000097,2025-10-08,Tandoori House,Mexican,Biryani,Snack,1.0,664.13,20,Dine-in
+FO000098,2025-09-01,Urban Cafe,Mexican,Burger,Dessert,2.0,713.77,19,Delivery
+FO000099,2026-04-14,Urban Cafe,Chinese,Pizza,Beverage,3.0,208.96,16,Dine-in
+FO000100,2026-04-01,Urban Cafe,Italian,Paneer Curry,Beverage,1.0,756.35,15,Pickup
+FO000101,2026-10-17,Pizza Corner,Mexican,Burger,Snack,1.0,587.13,20,Pickup
+FO000102,2026-02-21,Green Bowl,Mexican,Pizza,Main Course,3.0,,18,Delivery
+FO000103,2025-06-08,Pizza Corner,Healthy,Burger,Beverage,2.0,105.78,19,Dine-in
+FO000104,2025-03-26,Urban Cafe,Chinese,Salad,Snack,4.0,700.61,14,Delivery
+FO000105,2025-04-16,Pizza Corner,Healthy,Paneer Curry,Main Course,1.0,888.45,8,Delivery
+FO000106,2026-02-20,Urban Cafe,Chinese,Salad,Snack,1.0,656.37,9,Dine-in
+FO000107,2026-02-04,Tandoori House,Mexican,Pizza,Main Course,2.0,832.6,19,Delivery
+FO000108,2025-08-14,Green Bowl,Indian,Biryani,Dessert,5.0,420.1,21,Dine-in
+FO000109,2026-05-08,Spice Hub,Chinese,Salad,Dessert,3.0,655.32,9,Dine-in
+FO000110,2025-04-25,Pizza Corner,Indian,Paneer Curry,Dessert,2.0,545.11,8,Delivery
+FO000111,2026-04-23,Spice Hub,Chinese,Salad,Dessert,3.0,354.88,11,Dine-in
+FO000112,2026-02-17,Tandoori House,Italian,Noodles,Dessert,4.0,591.03,13,Dine-in
+FO000113,2025-04-28,Green Bowl,Healthy,Biryani,Snack,3.0,,10,Delivery
+FO000114,2026-08-26,Tandoori House,Indian,Noodles,Snack,1.0,858.48,17,Pickup
+FO000115,2026-08-05,Tandoori House,Italian,Salad,Main Course,2.0,734.07,22,Pickup
+FO000116,2026-05-18,Green Bowl,Indian,Tacos,Dessert,5.0,794.12,18,Dine-in
+FO000117,2026-03-21,Spice Hub,Indian,Paneer Curry,Main Course,,601.28,13,Dine-in
+FO000118,2025-04-19,Spice Hub,Indian,Burger,Snack,2.0,769.17,15,Pickup
+FO000119,2026-10-10,Urban Cafe,Italian,Noodles,Snack,5.0,380.8,23,Dine-in
+FO000120,2025-04-27,Spice Hub,Mexican,Biryani,Beverage,1.0,622.37,20,Dine-in
+FO000121,2026-06-24,Pizza Corner,Chinese,Pizza,Dessert,1.0,353.7,10,Delivery
+FO000122,2025-11-10,Spice Hub,Mexican,Noodles,Beverage,1.0,567.47,15,Pickup
+FO000123,2026-03-24,Pizza Corner,Italian,Paneer Curry,Dessert,1.0,138.57,9,Pickup
+FO000124,2025-01-15,Spice Hub,Mexican,Paneer Curry,Snack,2.0,,21,Dine-in
+FO000125,2025-07-31,Spice Hub,Italian,Noodles,Dessert,1.0,425.81,19,Delivery
+FO000126,2025-01-14,Spice Hub,Healthy,Paneer Curry,Main Course,,886.85,11,Delivery
+FO000127,2026-05-03,Tandoori House,Mexican,Pizza,Snack,1.0,783.76,19,Delivery
+FO000128,2025-06-18,Pizza Corner,Healthy,Biryani,Main Course,1.0,583.77,15,Delivery
+FO000129,2025-07-30,Tandoori House,Healthy,Noodles,Snack,3.0,298.01,20,Pickup
+FO000130,2025-03-13,Green Bowl,Chinese,Pizza,Dessert,3.0,596.51,8,Dine-in
+FO000131,2025-03-30,Green Bowl,Chinese,Paneer Curry,Beverage,4.0,700.5,14,Pickup
+FO000132,2026-01-01,Spice Hub,Chinese,Pasta,Beverage,3.0,467.22,17,Delivery
+FO000133,2025-08-18,Spice Hub,Mexican,Pizza,Main Course,5.0,565.84,9,Dine-in
+FO000134,2025-01-30,Pizza Corner,Italian,Biryani,Dessert,3.0,798.56,14,Dine-in
+FO000135,2026-07-16,Green Bowl,Italian,Biryani,Dessert,2.0,192.5,19,Dine-in
+FO000136,2025-06-12,Tandoori House,Indian,Pizza,Beverage,1.0,489.57,18,Delivery
+FO000137,2025-01-29,Green Bowl,Italian,Pizza,Snack,3.0,790.0,9,Delivery
+FO000138,2025-02-08,Spice Hub,Indian,Tacos,Main Course,2.0,400.75,19,Delivery
+FO000139,2025-09-29,Pizza Corner,Healthy,Pizza,Snack,3.0,804.95,19,Pickup
+FO000140,2025-12-21,Spice Hub,Healthy,Salad,Main Course,5.0,537.73,14,Delivery
+FO000141,2025-03-27,Tandoori House,Indian,Salad,Beverage,1.0,409.11,21,Delivery
+FO000142,2025-08-24,Green Bowl,Italian,Pizza,Beverage,2.0,893.08,17,Dine-in
+FO000143,2025-08-21,Green Bowl,Mexican,Pizza,Main Course,1.0,212.74,23,Dine-in
+FO000144,2025-02-25,Spice Hub,Italian,Pizza,Snack,4.0,364.78,19,Pickup
+FO000145,2026-03-11,Urban Cafe,Indian,Tacos,Beverage,3.0,260.23,23,Delivery
+FO000146,2025-08-26,Spice Hub,Mexican,Burger,Main Course,1.0,886.1,21,Dine-in
+FO000147,2026-04-15,Spice Hub,Healthy,Biryani,Dessert,4.0,203.2,13,Pickup
+FO000148,2025-01-01,Green Bowl,Healthy,Salad,Snack,1.0,177.87,9,Pickup
+FO000149,2025-01-23,Green Bowl,Chinese,Burger,Beverage,4.0,296.41,18,Delivery
+FO000150,2026-07-07,Green Bowl,Healthy,Pizza,Beverage,5.0,579.04,16,Pickup
+FO000151,2025-08-06,Tandoori House,Healthy,Pizza,Beverage,3.0,297.12,23,Dine-in
+FO000152,2025-09-01,Tandoori House,Healthy,Salad,Beverage,4.0,348.23,22,Pickup
+FO000153,2025-10-07,Tandoori House,Healthy,Noodles,Beverage,1.0,517.96,8,Delivery
+FO000154,2026-03-22,Spice Hub,Chinese,Biryani,Main Course,4.0,601.6,12,Pickup
+FO000155,2026-04-22,Spice Hub,Italian,Pasta,Snack,,555.44,16,Delivery
+FO000156,2026-04-20,Tandoori House,Mexican,Pizza,Dessert,3.0,584.27,18,Pickup
+FO000157,2026-08-08,Tandoori House,Healthy,Tacos,Snack,3.0,630.14,14,Pickup
+FO000158,2026-01-07,Spice Hub,Indian,Paneer Curry,Dessert,4.0,799.35,12,Dine-in
+FO000159,2025-06-18,Spice Hub,Indian,Paneer Curry,Beverage,4.0,633.57,15,Delivery
+FO000160,2026-01-29,Urban Cafe,Healthy,Salad,Dessert,5.0,671.18,20,Dine-in
+FO000161,2025-07-15,Green Bowl,Mexican,Pizza,Main Course,4.0,405.14,23,Delivery
+FO000162,2025-10-14,Spice Hub,Chinese,Salad,Main Course,1.0,854.62,19,Delivery
+FO000163,2025-01-19,Green Bowl,Healthy,Pizza,Snack,4.0,742.77,10,Delivery
+FO000164,2025-09-30,Urban Cafe,Chinese,Noodles,Dessert,1.0,557.87,23,Pickup
+FO000165,2026-02-06,Tandoori House,Mexican,Paneer Curry,Beverage,5.0,447.71,16,Dine-in
+FO000166,2025-07-24,Tandoori House,Healthy,Burger,Beverage,5.0,95.51,19,Pickup
+FO000167,2025-03-14,Green Bowl,Healthy,Tacos,Main Course,2.0,888.93,18,Delivery
+FO000168,2025-02-17,Spice Hub,Mexican,Biryani,Main Course,1.0,196.03,15,Dine-in
+FO000169,2025-03-21,Urban Cafe,Italian,Biryani,Main Course,5.0,497.45,16,Delivery
+FO000170,2025-08-22,Urban Cafe,Chinese,Biryani,Beverage,2.0,360.28,16,Delivery
+FO000171,2026-10-28,Tandoori House,Indian,Tacos,Dessert,5.0,347.36,10,Dine-in
+FO000172,2025-11-06,Pizza Corner,Indian,Burger,Dessert,1.0,423.96,20,Dine-in
+FO000173,2026-09-01,Urban Cafe,Indian,Tacos,Dessert,2.0,549.41,13,Delivery
+FO000174,2025-03-31,Spice Hub,Italian,Paneer Curry,Snack,3.0,88.2,19,Pickup
+FO000175,2026-10-12,Tandoori House,Chinese,Pasta,Beverage,1.0,206.35,8,Pickup
+FO000176,2026-08-31,Pizza Corner,Italian,Pasta,Main Course,3.0,582.81,9,Delivery
+FO000177,2025-02-28,Urban Cafe,Italian,Biryani,Snack,5.0,686.26,12,Delivery
+FO000178,2025-01-06,Tandoori House,Mexican,Tacos,Main Course,1.0,633.57,12,Dine-in
+FO000179,2026-03-07,Pizza Corner,Indian,Paneer Curry,Dessert,3.0,892.61,9,Pickup
+FO000180,2025-05-30,Spice Hub,Indian,Paneer Curry,Beverage,1.0,119.14,18,Pickup
+FO000181,2026-03-05,Spice Hub,Indian,Pizza,Dessert,4.0,502.46,9,Dine-in
+FO000182,2026-03-31,Spice Hub,Mexican,Pasta,Dessert,3.0,423.16,9,Dine-in
+FO000183,2025-02-12,Urban Cafe,Healthy,Biryani,Beverage,3.0,243.11,17,Dine-in
+FO000184,2026-07-05,Green Bowl,Chinese,Pizza,Main Course,3.0,810.2,18,Delivery
+FO000185,2026-08-03,Tandoori House,Indian,Pizza,Main Course,4.0,197.69,18,Dine-in
+FO000186,2025-11-13,Tandoori House,Healthy,Pasta,Main Course,4.0,493.77,21,Delivery
+FO000187,2026-09-15,Tandoori House,Chinese,Pasta,Dessert,5.0,237.55,20,Dine-in
+FO000188,2026-01-29,Tandoori House,Mexican,Noodles,Dessert,4.0,437.91,13,Dine-in
+FO000189,2026-05-04,Spice Hub,Healthy,Paneer Curry,Beverage,5.0,728.23,18,Dine-in
+FO000190,2025-07-02,Tandoori House,Healthy,Burger,Dessert,1.0,654.49,11,Pickup
+FO000191,2026-02-28,Tandoori House,Chinese,Paneer Curry,Main Course,,654.34,21,Dine-in
+FO000192,2026-10-01,Pizza Corner,Indian,Biryani,Dessert,3.0,256.36,21,Delivery
+FO000193,2026-06-04,Tandoori House,Italian,Burger,Main Course,1.0,98.74,16,Dine-in
+FO000194,2026-03-07,Green Bowl,Healthy,Burger,Main Course,5.0,670.46,15,Dine-in
+FO000195,2025-09-29,Pizza Corner,Italian,Biryani,Dessert,5.0,167.01,17,Dine-in
+FO000196,2025-03-29,Pizza Corner,Healthy,Salad,Dessert,3.0,399.96,21,Dine-in
+FO000197,2025-08-18,Urban Cafe,Healthy,Burger,Main Course,3.0,772.02,22,Dine-in
+FO000198,2026-05-08,Pizza Corner,Italian,Noodles,Snack,5.0,415.77,9,Dine-in
+FO000199,2025-12-19,Green Bowl,Healthy,Pasta,Dessert,3.0,461.65,17,Pickup
+FO000200,2025-03-27,Spice Hub,Healthy,Pasta,Beverage,5.0,865.51,11,Dine-in
+FO000201,2025-06-07,Spice Hub,Mexican,Noodles,Snack,5.0,825.43,8,Dine-in
+FO000202,2025-09-27,Pizza Corner,Mexican,Tacos,Snack,2.0,154.52,8,Delivery
+FO000203,2025-01-31,Tandoori House,Italian,Biryani,Snack,4.0,790.81,9,Pickup
+FO000204,2025-11-25,Pizza Corner,Healthy,Paneer Curry,Dessert,1.0,485.57,15,Dine-in
+FO000205,2026-09-04,Tandoori House,Chinese,Salad,Beverage,1.0,734.34,21,Pickup
+FO000206,2026-04-29,Tandoori House,Mexican,Pizza,Snack,1.0,368.74,22,Delivery
+FO000207,2026-09-19,Spice Hub,Healthy,Noodles,Dessert,5.0,864.92,20,Pickup
+FO000208,2026-10-29,Pizza Corner,Healthy,Salad,Dessert,1.0,733.18,18,Pickup
+FO000209,2025-02-06,Urban Cafe,Healthy,Noodles,Main Course,2.0,448.51,17,Delivery
+FO000210,2025-09-06,Pizza Corner,Indian,Noodles,Dessert,4.0,375.79,8,Delivery
+FO000211,2025-05-16,Green Bowl,Healthy,Salad,Dessert,1.0,253.06,21,Delivery
+FO000212,2026-03-29,Tandoori House,Indian,Pizza,Dessert,1.0,305.82,8,Pickup
+FO000213,2025-01-24,Spice Hub,Chinese,Paneer Curry,Main Course,4.0,442.49,20,Dine-in
+FO000214,2026-03-26,Spice Hub,Italian,Noodles,Snack,5.0,370.46,19,Delivery
+FO000215,2025-09-16,Pizza Corner,Indian,Noodles,Dessert,1.0,608.18,12,Delivery
+FO000216,2025-05-04,Green Bowl,Mexican,Burger,Snack,4.0,601.14,9,Dine-in
+FO000217,2025-05-20,Tandoori House,Healthy,Salad,Snack,3.0,238.66,22,Pickup
+FO000218,2026-03-07,Tandoori House,Chinese,Pizza,Main Course,5.0,293.82,11,Dine-in
+FO000219,2025-11-14,Urban Cafe,Chinese,Salad,Snack,5.0,117.06,16,Delivery
+FO000220,2026-08-12,Pizza Corner,Italian,Noodles,Snack,3.0,393.62,19,Delivery
+FO000221,2026-10-17,Pizza Corner,Indian,Tacos,Snack,5.0,468.23,15,Dine-in
+FO000222,2026-01-07,Tandoori House,Indian,Burger,Main Course,2.0,166.18,11,Delivery
+FO000223,2026-04-06,Urban Cafe,Healthy,Burger,Main Course,3.0,149.81,15,Dine-in
+FO000224,2025-11-17,Spice Hub,Healthy,Pasta,Beverage,1.0,299.61,15,Delivery
+FO000225,2025-09-20,Urban Cafe,Italian,Biryani,Main Course,,482.97,15,Dine-in
+FO000226,2026-03-10,Urban Cafe,Mexican,Pasta,Dessert,4.0,886.42,14,Pickup
+FO000227,2025-01-09,Spice Hub,Indian,Noodles,Main Course,3.0,830.36,8,Delivery
+FO000228,2026-06-24,Urban Cafe,Indian,Pasta,Dessert,1.0,406.7,13,Dine-in
+FO000229,2026-04-03,Spice Hub,Healthy,Noodles,Beverage,,535.99,13,Delivery
+FO000230,2025-05-31,Spice Hub,Indian,Pizza,Snack,5.0,538.92,12,Dine-in
+FO000231,2025-01-03,Pizza Corner,Mexican,Biryani,Dessert,2.0,361.33,9,Delivery
+FO000232,2025-04-20,Pizza Corner,Healthy,Pasta,Snack,,782.63,14,Pickup
+FO000233,2026-04-15,Spice Hub,Mexican,Biryani,Main Course,2.0,319.12,22,Delivery
+FO000234,2026-03-12,Green Bowl,Chinese,Salad,Beverage,4.0,430.23,10,Dine-in
+FO000235,2026-03-22,Tandoori House,Italian,Paneer Curry,Snack,1.0,823.66,19,Delivery
+FO000236,2025-01-24,Urban Cafe,Mexican,Pizza,Dessert,2.0,363.66,23,Pickup
+FO000237,2025-01-11,Urban Cafe,Italian,Pasta,Beverage,2.0,499.09,23,Delivery
+FO000238,2026-07-07,Pizza Corner,Healthy,Burger,Main Course,4.0,793.88,13,Dine-in
+FO000239,2025-11-01,Urban Cafe,Indian,Pasta,Snack,2.0,348.55,10,Pickup
+FO000240,2025-07-22,Pizza Corner,Healthy,Noodles,Snack,4.0,868.6,19,Pickup
+FO000241,2025-02-23,Spice Hub,Healthy,Pasta,Main Course,2.0,246.91,12,Dine-in
+FO000242,2025-03-16,Spice Hub,Indian,Burger,Main Course,1.0,641.02,12,Pickup
+FO000243,2026-05-11,Green Bowl,Italian,Burger,Main Course,2.0,129.23,19,Pickup
+FO000244,2026-05-27,Green Bowl,Mexican,Pasta,Dessert,5.0,520.42,12,Pickup
+FO000245,2025-07-08,Tandoori House,Healthy,Biryani,Snack,4.0,210.7,16,Delivery
+FO000246,2025-05-30,Pizza Corner,Healthy,Burger,Snack,3.0,595.35,15,Delivery
+FO000247,2025-07-21,Urban Cafe,Italian,Biryani,Snack,2.0,585.79,21,Pickup
+FO000248,2025-09-26,Spice Hub,Indian,Biryani,Dessert,2.0,421.5,19,Pickup
+FO000249,2026-07-22,Green Bowl,Healthy,Pizza,Beverage,3.0,838.36,13,Delivery
+FO000250,2025-10-04,Pizza Corner,Mexican,Salad,Dessert,5.0,810.95,8,Delivery
+FO000251,2026-06-01,Urban Cafe,Italian,Pasta,Beverage,2.0,682.68,11,Delivery
+FO000252,2026-07-03,Pizza Corner,Mexican,Pasta,Dessert,5.0,670.11,10,Pickup
+FO000253,2026-02-04,Spice Hub,Indian,Tacos,Dessert,2.0,135.95,20,Dine-in
+FO000254,2025-06-26,Pizza Corner,Indian,Paneer Curry,Beverage,1.0,345.32,20,Pickup
+FO000255,2026-10-23,Tandoori House,Italian,Pizza,Snack,4.0,246.59,8,Delivery
+FO000256,2026-02-28,Urban Cafe,Chinese,Burger,Dessert,1.0,398.61,13,Pickup
+FO000257,2026-04-10,Pizza Corner,Indian,Paneer Curry,Beverage,4.0,169.52,10,Dine-in
+FO000258,2026-10-31,Pizza Corner,Chinese,Pasta,Snack,5.0,340.98,21,Delivery
+FO000259,2026-02-13,Urban Cafe,Italian,Burger,Snack,1.0,548.16,19,Delivery
+FO000260,2026-02-05,Spice Hub,Indian,Biryani,Snack,3.0,216.28,10,Dine-in
+FO000261,2026-07-09,Urban Cafe,Mexican,Pasta,Snack,1.0,166.72,19,Dine-in
+FO000262,2025-04-05,Tandoori House,Indian,Paneer Curry,Snack,3.0,659.48,21,Delivery
+FO000263,2026-10-07,Urban Cafe,Mexican,Biryani,Beverage,3.0,282.48,9,Delivery
+FO000264,2025-07-09,Urban Cafe,Chinese,Tacos,Beverage,1.0,472.13,17,Delivery
+FO000265,2026-10-11,Urban Cafe,Indian,Burger,Main Course,1.0,767.52,16,Pickup
+FO000266,2025-12-24,Urban Cafe,Italian,Pasta,Main Course,3.0,390.41,10,Delivery
+FO000267,2026-08-12,Green Bowl,Mexican,Salad,Beverage,5.0,160.83,22,Delivery
+FO000268,2025-08-04,Pizza Corner,Healthy,Noodles,Beverage,2.0,723.97,8,Delivery
+FO000269,2026-05-23,Urban Cafe,Italian,Tacos,Main Course,5.0,685.58,15,Delivery
+FO000270,2025-12-12,Urban Cafe,Healthy,Tacos,Dessert,1.0,580.38,22,Pickup
+FO000271,2026-03-09,Green Bowl,Italian,Tacos,Dessert,1.0,521.09,12,Delivery
+FO000272,2025-12-30,Urban Cafe,Healthy,Pizza,Main Course,2.0,696.8,12,Dine-in
+FO000273,2026-10-22,Green Bowl,Chinese,Pizza,Main Course,1.0,369.68,19,Dine-in
+FO000274,2026-05-08,Spice Hub,Mexican,Paneer Curry,Main Course,1.0,350.35,11,Dine-in
+FO000275,2025-06-18,Urban Cafe,Chinese,Pizza,Beverage,2.0,594.48,16,Dine-in
+FO000276,2026-02-21,Tandoori House,Indian,Paneer Curry,Dessert,3.0,216.47,10,Pickup
+FO000277,2025-09-02,Green Bowl,Indian,Salad,Snack,5.0,599.24,9,Delivery
+FO000278,2026-04-12,Green Bowl,Italian,Biryani,Dessert,4.0,790.99,13,Delivery
+FO000279,2025-11-17,Pizza Corner,Indian,Pasta,Main Course,4.0,502.4,10,Pickup
+FO000280,2025-05-27,Urban Cafe,Mexican,Pizza,Main Course,4.0,148.0,16,Dine-in
+FO000281,2025-05-30,Green Bowl,Indian,Paneer Curry,Snack,3.0,623.55,15,Dine-in
+FO000282,2025-10-11,Urban Cafe,Healthy,Paneer Curry,Snack,1.0,792.85,15,Dine-in
+FO000283,2025-11-19,Pizza Corner,Chinese,Biryani,Dessert,2.0,241.41,23,Dine-in
+FO000284,2026-07-07,Green Bowl,Italian,Pizza,Snack,1.0,581.99,21,Delivery
+FO000285,2026-03-03,Spice Hub,Mexican,Paneer Curry,Snack,3.0,241.64,14,Dine-in
+FO000286,2026-05-19,Green Bowl,Mexican,Burger,Main Course,4.0,752.17,11,Pickup
+FO000287,2025-04-10,Urban Cafe,Healthy,Burger,Snack,3.0,287.33,11,Dine-in
+FO000288,2025-05-02,Spice Hub,Healthy,Salad,Main Course,3.0,596.13,19,Dine-in
+FO000289,2025-01-25,Green Bowl,Chinese,Salad,Snack,4.0,563.24,21,Delivery
+FO000290,2025-02-12,Spice Hub,Mexican,Salad,Main Course,1.0,387.31,22,Dine-in
+FO000291,2025-04-08,Spice Hub,Mexican,Salad,Snack,4.0,818.38,22,Pickup
+FO000292,2026-03-13,Pizza Corner,Mexican,Pasta,Beverage,4.0,,8,Pickup
+FO000293,2025-11-02,Green Bowl,Chinese,Pizza,Dessert,5.0,358.87,21,Dine-in
+FO000294,2025-10-25,Urban Cafe,Healthy,Tacos,Snack,3.0,365.43,20,Pickup
+FO000295,2026-05-10,Tandoori House,Chinese,Burger,Dessert,5.0,616.97,10,Pickup
+FO000296,2025-10-02,Tandoori House,Mexican,Tacos,Snack,2.0,312.87,12,Pickup
+FO000297,2025-01-05,Spice Hub,Healthy,Salad,Main Course,3.0,329.14,23,Pickup
+FO000298,2025-01-17,Urban Cafe,Indian,Burger,Snack,4.0,96.87,15,Dine-in
+FO000299,2025-05-01,Spice Hub,Italian,Biryani,Main Course,3.0,157.03,19,Pickup
+FO000300,2025-09-13,Spice Hub,Healthy,Biryani,Main Course,2.0,619.59,8,Dine-in
+FO000301,2026-08-14,Urban Cafe,Indian,Paneer Curry,Beverage,3.0,343.06,18,Dine-in
+FO000302,2025-04-30,Spice Hub,Healthy,Salad,Beverage,3.0,146.62,12,Pickup
+FO000303,2026-05-07,Tandoori House,Healthy,Pizza,Snack,1.0,842.77,20,Pickup
+FO000304,2025-01-23,Pizza Corner,Chinese,Tacos,Beverage,5.0,322.48,9,Delivery
+FO000305,2025-03-14,Spice Hub,Mexican,Noodles,Main Course,4.0,251.47,23,Delivery
+FO000306,2025-09-24,Urban Cafe,Healthy,Pasta,Dessert,,508.31,11,Dine-in
+FO000307,2026-03-02,Pizza Corner,Chinese,Pasta,Snack,2.0,761.18,14,Pickup
+FO000308,2026-07-06,Urban Cafe,Indian,Salad,Main Course,3.0,795.55,8,Dine-in
+FO000309,2026-05-11,Green Bowl,Chinese,Tacos,Beverage,3.0,330.17,9,Pickup
+FO000310,2026-08-20,Spice Hub,Healthy,Pasta,Main Course,1.0,688.57,23,Dine-in
+FO000311,2025-10-18,Tandoori House,Healthy,Pizza,Dessert,2.0,509.0,19,Dine-in
+FO000312,2025-06-09,Spice Hub,Healthy,Burger,Beverage,5.0,568.15,22,Delivery
+FO000313,2025-10-09,Spice Hub,Italian,Paneer Curry,Main Course,2.0,440.81,21,Pickup
+FO000314,2025-07-03,Urban Cafe,Chinese,Paneer Curry,Snack,,225.34,18,Dine-in
+FO000315,2025-08-26,Urban Cafe,Mexican,Paneer Curry,Dessert,5.0,752.76,18,Dine-in
+FO000316,2025-03-07,Urban Cafe,Healthy,Pizza,Beverage,5.0,526.18,13,Delivery
+FO000317,2026-05-29,Pizza Corner,Healthy,Tacos,Beverage,1.0,,19,Delivery
+FO000318,2026-09-01,Pizza Corner,Indian,Salad,Beverage,2.0,633.77,23,Dine-in
+FO000319,2025-03-06,Spice Hub,Mexican,Pasta,Snack,5.0,429.03,11,Pickup
+FO000320,2025-02-13,Spice Hub,Healthy,Noodles,Snack,5.0,776.27,23,Dine-in
+FO000321,2026-06-22,Urban Cafe,Indian,Salad,Snack,3.0,191.27,16,Pickup
+FO000322,2026-09-20,Urban Cafe,Mexican,Noodles,Snack,4.0,104.54,20,Delivery
+FO000323,2025-01-11,Pizza Corner,Mexican,Paneer Curry,Snack,2.0,546.9,13,Pickup
+FO000324,2026-03-06,Tandoori House,Italian,Noodles,Snack,2.0,290.61,18,Delivery
+FO000325,2025-10-05,Urban Cafe,Mexican,Tacos,Dessert,5.0,176.93,16,Dine-in
+FO000326,2026-06-11,Pizza Corner,Healthy,Paneer Curry,Snack,4.0,104.87,13,Delivery
+FO000327,2025-12-12,Urban Cafe,Mexican,Burger,Main Course,4.0,711.71,8,Dine-in
+FO000328,2025-05-28,Tandoori House,Indian,Paneer Curry,Main Course,2.0,867.04,22,Delivery
+FO000329,2025-07-14,Pizza Corner,Italian,Pizza,Main Course,1.0,,19,Delivery
+FO000330,2026-02-11,Spice Hub,Italian,Pasta,Main Course,1.0,713.55,15,Delivery
+FO000331,2025-06-23,Spice Hub,Chinese,Noodles,Dessert,4.0,767.55,16,Delivery
+FO000332,2025-03-14,Green Bowl,Mexican,Tacos,Beverage,2.0,740.45,18,Dine-in
+FO000333,2025-12-23,Green Bowl,Italian,Pasta,Snack,3.0,347.94,8,Delivery
+FO000334,2026-03-17,Urban Cafe,Indian,Noodles,Main Course,4.0,81.93,10,Delivery
+FO000335,2026-06-19,Spice Hub,Mexican,Paneer Curry,Snack,4.0,595.07,23,Delivery
+FO000336,2026-02-06,Tandoori House,Indian,Noodles,Snack,1.0,857.02,8,Dine-in
+FO000337,2025-09-27,Pizza Corner,Healthy,Pizza,Snack,3.0,807.77,9,Dine-in
+FO000338,2026-07-06,Tandoori House,Mexican,Noodles,Snack,4.0,83.9,23,Delivery
+FO000339,2025-11-02,Urban Cafe,Healthy,Pasta,Main Course,3.0,821.45,20,Pickup
+FO000340,2026-03-08,Green Bowl,Chinese,Noodles,Snack,4.0,88.9,17,Pickup
+FO000341,2026-08-27,Pizza Corner,Chinese,Tacos,Main Course,2.0,515.75,22,Delivery
+FO000342,2026-10-12,Urban Cafe,Italian,Salad,Main Course,2.0,779.18,18,Dine-in
+FO000343,2025-10-24,Pizza Corner,Healthy,Burger,Dessert,2.0,421.15,9,Delivery
+FO000344,2025-11-25,Green Bowl,Mexican,Salad,Dessert,1.0,640.76,8,Delivery
+FO000345,2026-08-05,Tandoori House,Italian,Tacos,Dessert,1.0,270.64,22,Dine-in
+FO000346,2026-01-05,Tandoori House,Chinese,Biryani,Main Course,3.0,875.51,14,Pickup
+FO000347,2026-05-20,Tandoori House,Mexican,Pasta,Beverage,5.0,116.15,13,Dine-in
+FO000348,2025-02-20,Green Bowl,Chinese,Paneer Curry,Dessert,1.0,598.46,12,Dine-in
+FO000349,2026-07-06,Spice Hub,Indian,Tacos,Snack,2.0,108.51,20,Delivery
+FO000350,2025-03-14,Pizza Corner,Chinese,Pasta,Dessert,1.0,114.29,21,Delivery
+FO000351,2025-09-18,Green Bowl,Chinese,Tacos,Dessert,2.0,301.66,17,Delivery
+FO000352,2025-04-27,Pizza Corner,Indian,Biryani,Main Course,1.0,92.46,15,Pickup
+FO000353,2026-09-14,Pizza Corner,Chinese,Burger,Dessert,5.0,250.01,17,Dine-in
+FO000354,2025-03-21,Spice Hub,Mexican,Tacos,Main Course,2.0,206.24,14,Dine-in
+FO000355,2026-01-01,Spice Hub,Chinese,Noodles,Main Course,5.0,827.77,13,Pickup
+FO000356,2025-04-02,Pizza Corner,Indian,Noodles,Main Course,4.0,113.99,10,Delivery
+FO000357,2025-01-13,Green Bowl,Chinese,Salad,Dessert,2.0,581.68,15,Dine-in
+FO000358,2025-06-24,Urban Cafe,Healthy,Noodles,Dessert,2.0,629.84,14,Delivery
+FO000359,2025-02-22,Tandoori House,Healthy,Paneer Curry,Snack,1.0,753.24,12,Pickup
+FO000360,2025-07-06,Tandoori House,Indian,Burger,Dessert,5.0,,13,Delivery
+FO000361,2025-04-18,Urban Cafe,Indian,Burger,Main Course,5.0,228.93,19,Dine-in
+FO000362,2026-04-11,Urban Cafe,Chinese,Pizza,Beverage,4.0,179.88,20,Dine-in
+FO000363,2025-04-25,Spice Hub,Indian,Pasta,Dessert,1.0,196.87,20,Dine-in
+FO000364,2025-11-22,Green Bowl,Healthy,Biryani,Dessert,5.0,509.69,21,Dine-in
+FO000365,2025-01-01,Pizza Corner,Indian,Pizza,Main Course,2.0,569.38,23,Delivery
+FO000366,2026-09-13,Urban Cafe,Indian,Pizza,Dessert,4.0,726.51,14,Delivery
+FO000367,2025-10-23,Spice Hub,Chinese,Noodles,Beverage,3.0,739.66,22,Pickup
+FO000368,2025-08-18,Spice Hub,Italian,Biryani,Beverage,1.0,771.08,14,Pickup
+FO000369,2025-08-06,Urban Cafe,Indian,Tacos,Dessert,2.0,210.94,21,Dine-in
+FO000370,2025-02-12,Pizza Corner,Chinese,Paneer Curry,Dessert,1.0,691.16,23,Delivery
+FO000371,2025-06-23,Urban Cafe,Italian,Burger,Main Course,1.0,139.64,20,Pickup
+FO000372,2026-07-19,Pizza Corner,Healthy,Pizza,Snack,2.0,802.06,14,Dine-in
+FO000373,2025-09-16,Tandoori House,Healthy,Salad,Main Course,1.0,510.79,14,Delivery
+FO000374,2026-07-18,Tandoori House,Chinese,Biryani,Snack,4.0,606.05,18,Dine-in
+FO000375,2025-04-30,Urban Cafe,Chinese,Noodles,Snack,4.0,588.23,23,Delivery
+FO000376,2025-09-01,Green Bowl,Indian,Paneer Curry,Beverage,4.0,537.54,10,Pickup
+FO000377,2026-02-27,Pizza Corner,Chinese,Tacos,Beverage,3.0,509.15,12,Delivery
+FO000378,2025-02-17,Spice Hub,Mexican,Paneer Curry,Beverage,2.0,836.13,14,Delivery
+FO000379,2025-08-25,Pizza Corner,Italian,Burger,Beverage,,365.67,20,Delivery
+FO000380,2026-08-13,Spice Hub,Chinese,Salad,Snack,4.0,718.61,11,Pickup
+FO000381,2025-11-27,Green Bowl,Indian,Salad,Beverage,2.0,376.8,15,Pickup
+FO000382,2026-09-17,Urban Cafe,Healthy,Paneer Curry,Snack,2.0,117.63,11,Pickup
+FO000383,2025-04-06,Urban Cafe,Chinese,Noodles,Beverage,5.0,389.97,19,Dine-in
+FO000384,2026-10-30,Urban Cafe,Healthy,Tacos,Main Course,4.0,203.73,11,Pickup
+FO000385,2026-08-11,Green Bowl,Mexican,Noodles,Snack,3.0,441.28,9,Dine-in
+FO000386,2025-09-19,Green Bowl,Mexican,Biryani,Main Course,2.0,147.24,15,Delivery
+FO000387,2026-01-12,Urban Cafe,Italian,Noodles,Main Course,2.0,724.07,8,Dine-in
+FO000388,2025-03-27,Urban Cafe,Indian,Pasta,Snack,2.0,564.5,12,Delivery
+FO000389,2025-04-16,Green Bowl,Chinese,Biryani,Main Course,5.0,111.05,23,Dine-in
+FO000390,2025-09-10,Tandoori House,Mexican,Burger,Snack,3.0,609.33,21,Delivery
+FO000391,2025-08-08,Pizza Corner,Italian,Biryani,Beverage,3.0,862.8,18,Pickup
+FO000392,2026-01-27,Spice Hub,Indian,Tacos,Main Course,5.0,,15,Dine-in
+FO000393,2026-08-29,Spice Hub,Healthy,Noodles,Main Course,4.0,372.5,20,Dine-in
+FO000394,2025-01-29,Pizza Corner,Indian,Pizza,Main Course,4.0,813.71,8,Pickup
+FO000395,2026-07-15,Green Bowl,Italian,Salad,Dessert,2.0,107.42,14,Dine-in
+FO000396,2025-07-03,Green Bowl,Indian,Tacos,Main Course,2.0,833.25,15,Delivery
+FO000397,2026-03-12,Urban Cafe,Indian,Biryani,Dessert,1.0,,8,Delivery
+FO000398,2026-09-23,Green Bowl,Italian,Pasta,Dessert,3.0,399.78,9,Dine-in
+FO000399,2026-05-06,Green Bowl,Chinese,Burger,Snack,2.0,461.3,14,Pickup
+FO000400,2025-01-30,Pizza Corner,Italian,Pizza,Beverage,3.0,890.3,10,Dine-in
+FO000401,2026-02-01,Tandoori House,Healthy,Biryani,Main Course,3.0,129.12,23,Pickup
+FO000402,2025-04-11,Tandoori House,Mexican,Burger,Main Course,1.0,340.87,10,Dine-in
+FO000403,2025-06-19,Tandoori House,Chinese,Pizza,Beverage,3.0,132.04,8,Delivery
+FO000404,2026-01-24,Pizza Corner,Italian,Pizza,Beverage,4.0,691.99,20,Pickup
+FO000405,2026-01-25,Pizza Corner,Chinese,Pizza,Snack,5.0,613.99,14,Delivery
+FO000406,2026-10-03,Urban Cafe,Chinese,Pizza,Snack,2.0,788.03,14,Pickup
+FO000407,2025-07-09,Tandoori House,Italian,Pasta,Beverage,2.0,236.01,12,Delivery
+FO000408,2026-09-22,Urban Cafe,Indian,Burger,Beverage,3.0,526.99,8,Pickup
+FO000409,2025-10-19,Spice Hub,Chinese,Pasta,Snack,5.0,664.67,19,Dine-in
+FO000410,2025-06-22,Tandoori House,Italian,Paneer Curry,Dessert,1.0,311.12,16,Delivery
+FO000411,2026-02-21,Green Bowl,Mexican,Biryani,Beverage,3.0,809.53,14,Dine-in
+FO000412,2026-02-15,Green Bowl,Mexican,Burger,Snack,4.0,242.26,11,Dine-in
+FO000413,2026-08-24,Pizza Corner,Healthy,Biryani,Beverage,1.0,176.93,10,Delivery
+FO000414,2026-10-08,Pizza Corner,Chinese,Noodles,Snack,1.0,310.41,19,Pickup
+FO000415,2026-03-21,Spice Hub,Indian,Pasta,Snack,1.0,,9,Dine-in
+FO000416,2026-02-26,Urban Cafe,Mexican,Noodles,Dessert,2.0,665.62,23,Pickup
+FO000417,2025-07-12,Pizza Corner,Italian,Pizza,Main Course,1.0,810.75,16,Delivery
+FO000418,2025-05-29,Pizza Corner,Healthy,Pizza,Main Course,2.0,585.77,10,Dine-in
+FO000419,2026-02-02,Pizza Corner,Indian,Pizza,Main Course,2.0,832.9,22,Delivery
+FO000420,2026-04-10,Green Bowl,Chinese,Pizza,Dessert,4.0,525.43,12,Pickup
+FO000421,2025-09-04,Urban Cafe,Italian,Tacos,Dessert,2.0,833.04,12,Dine-in
+FO000422,2025-12-09,Green Bowl,Healthy,Paneer Curry,Dessert,5.0,793.55,19,Dine-in
+FO000423,2026-01-20,Spice Hub,Indian,Pasta,Snack,1.0,468.22,9,Dine-in
+FO000424,2025-11-27,Tandoori House,Healthy,Pizza,Snack,1.0,85.31,18,Delivery
+FO000425,2025-01-31,Spice Hub,Indian,Paneer Curry,Snack,5.0,888.33,12,Delivery
+FO000426,2025-11-23,Green Bowl,Healthy,Pasta,Dessert,1.0,487.62,21,Dine-in
+FO000427,2025-05-24,Pizza Corner,Mexican,Pasta,Dessert,2.0,687.58,15,Delivery
+FO000428,2025-03-17,Urban Cafe,Indian,Salad,Dessert,4.0,450.87,18,Dine-in
+FO000429,2025-11-10,Tandoori House,Healthy,Pasta,Snack,5.0,376.91,15,Delivery
+FO000430,2026-06-13,Green Bowl,Indian,Tacos,Dessert,2.0,373.75,11,Pickup
+FO000431,2026-06-18,Spice Hub,Chinese,Burger,Dessert,2.0,,13,Dine-in
+FO000432,2025-08-21,Spice Hub,Mexican,Noodles,Main Course,1.0,555.14,21,Pickup
+FO000433,2026-01-16,Urban Cafe,Chinese,Biryani,Snack,3.0,742.38,16,Dine-in
+FO000434,2025-05-04,Urban Cafe,Chinese,Pizza,Main Course,2.0,546.62,10,Delivery
+FO000435,2025-07-07,Spice Hub,Chinese,Burger,Dessert,2.0,511.31,9,Pickup
+FO000436,2025-10-22,Pizza Corner,Indian,Biryani,Snack,2.0,331.44,9,Dine-in
+FO000437,2025-09-18,Green Bowl,Italian,Pasta,Main Course,5.0,459.51,21,Delivery
+FO000438,2026-03-07,Spice Hub,Italian,Noodles,Beverage,3.0,227.43,23,Delivery
+FO000439,2026-05-14,Tandoori House,Healthy,Noodles,Main Course,3.0,690.64,16,Delivery
+FO000440,2026-01-06,Green Bowl,Italian,Tacos,Snack,3.0,722.21,17,Dine-in
+FO000441,2025-01-20,Green Bowl,Italian,Biryani,Beverage,3.0,275.57,16,Delivery
+FO000442,2026-07-02,Green Bowl,Indian,Paneer Curry,Main Course,2.0,544.95,13,Pickup
+FO000443,2025-11-01,Tandoori House,Chinese,Paneer Curry,Dessert,1.0,313.53,20,Delivery
+FO000444,2026-07-19,Urban Cafe,Indian,Tacos,Snack,2.0,881.47,12,Dine-in
+FO000445,2025-07-03,Spice Hub,Healthy,Burger,Beverage,2.0,325.05,19,Pickup
+FO000446,2026-02-20,Urban Cafe,Mexican,Tacos,Snack,2.0,788.52,9,Pickup
+FO000447,2025-06-13,Pizza Corner,Chinese,Salad,Dessert,1.0,654.26,17,Pickup
+FO000448,2026-01-05,Pizza Corner,Italian,Burger,Snack,5.0,871.79,16,Pickup
+FO000449,2026-07-14,Urban Cafe,Italian,Paneer Curry,Beverage,3.0,669.96,10,Delivery
+FO000450,2026-01-15,Tandoori House,Chinese,Burger,Snack,3.0,579.52,21,Delivery
+FO000451,2026-10-30,Pizza Corner,Indian,Paneer Curry,Main Course,5.0,457.57,11,Delivery
+FO000452,2025-09-20,Urban Cafe,Healthy,Noodles,Snack,5.0,466.33,18,Dine-in
+FO000453,2025-03-26,Tandoori House,Chinese,Noodles,Snack,2.0,81.02,15,Delivery
+FO000454,2025-11-10,Urban Cafe,Mexican,Salad,Beverage,5.0,897.47,20,Pickup
+FO000455,2026-07-12,Spice Hub,Mexican,Tacos,Beverage,3.0,545.45,14,Dine-in
+FO000456,2025-12-19,Tandoori House,Italian,Paneer Curry,Snack,3.0,561.31,17,Pickup
+FO000457,2026-02-13,Green Bowl,Mexican,Noodles,Main Course,5.0,227.96,19,Dine-in
+FO000458,2026-06-20,Tandoori House,Chinese,Biryani,Main Course,5.0,434.24,8,Delivery
+FO000459,2025-06-25,Tandoori House,Chinese,Tacos,Snack,5.0,259.65,11,Pickup
+FO000460,2026-05-14,Tandoori House,Mexican,Tacos,Snack,1.0,259.44,15,Dine-in
+FO000461,2026-10-01,Pizza Corner,Mexican,Pizza,Dessert,1.0,528.98,13,Delivery
+FO000462,2025-05-11,Spice Hub,Mexican,Pasta,Snack,2.0,277.53,8,Pickup
+FO000463,2025-05-04,Green Bowl,Mexican,Salad,Beverage,2.0,626.61,18,Dine-in
+FO000464,2026-10-17,Tandoori House,Healthy,Tacos,Main Course,4.0,388.84,9,Pickup
+FO000465,2026-10-13,Pizza Corner,Chinese,Paneer Curry,Beverage,1.0,388.89,20,Dine-in
+FO000466,2026-10-08,Tandoori House,Indian,Pizza,Beverage,2.0,655.81,10,Pickup
+FO000467,2026-07-28,Pizza Corner,Chinese,Noodles,Dessert,4.0,,17,Delivery
+FO000468,2025-07-06,Urban Cafe,Mexican,Pasta,Beverage,3.0,411.01,22,Pickup
+FO000469,2026-01-11,Pizza Corner,Italian,Pizza,Snack,4.0,842.67,13,Pickup
+FO000470,2026-10-31,Pizza Corner,Chinese,Salad,Snack,5.0,349.17,11,Dine-in
+FO000471,2026-04-16,Green Bowl,Mexican,Pasta,Dessert,5.0,669.06,11,Dine-in
+FO000472,2025-12-18,Spice Hub,Healthy,Biryani,Dessert,5.0,730.82,15,Pickup
+FO000473,2026-02-11,Spice Hub,Indian,Paneer Curry,Beverage,4.0,258.98,12,Dine-in
+FO000474,2025-06-01,Green Bowl,Indian,Noodles,Dessert,3.0,468.85,22,Dine-in
+FO000475,2025-08-23,Urban Cafe,Mexican,Burger,Dessert,4.0,97.19,21,Pickup
+FO000476,2026-04-28,Pizza Corner,Italian,Pizza,Dessert,4.0,350.68,18,Delivery
+FO000477,2026-10-07,Urban Cafe,Mexican,Noodles,Main Course,5.0,301.38,13,Dine-in
+FO000478,2025-02-02,Spice Hub,Mexican,Pizza,Snack,4.0,712.62,10,Pickup
+FO000479,2025-10-05,Spice Hub,Indian,Burger,Beverage,3.0,260.99,11,Pickup
+FO000480,2026-04-06,Tandoori House,Mexican,Salad,Beverage,3.0,100.86,15,Dine-in
+FO000481,2025-11-07,Spice Hub,Indian,Noodles,Beverage,5.0,99.4,21,Dine-in
+FO000482,2026-07-13,Tandoori House,Mexican,Pasta,Beverage,2.0,706.25,20,Dine-in
+FO000483,2026-03-08,Green Bowl,Healthy,Paneer Curry,Main Course,2.0,197.56,23,Delivery
+FO000484,2025-08-23,Tandoori House,Italian,Tacos,Beverage,4.0,608.11,15,Pickup
+FO000485,2026-05-27,Tandoori House,Chinese,Salad,Beverage,4.0,245.28,16,Delivery
+FO000486,2025-08-12,Spice Hub,Healthy,Pizza,Beverage,2.0,261.73,11,Dine-in
+FO000487,2025-10-04,Green Bowl,Italian,Paneer Curry,Beverage,1.0,741.28,19,Dine-in
+FO000488,2025-07-02,Pizza Corner,Italian,Salad,Snack,4.0,639.27,18,Dine-in
+FO000489,2026-10-31,Pizza Corner,Chinese,Burger,Snack,1.0,616.71,9,Delivery
+FO000490,2025-09-30,Tandoori House,Italian,Biryani,Main Course,1.0,841.51,14,Dine-in
+FO000491,2026-10-01,Spice Hub,Indian,Pizza,Dessert,1.0,793.57,22,Pickup
+FO000492,2026-01-19,Spice Hub,Healthy,Pizza,Dessert,4.0,774.4,16,Dine-in
+FO000493,2025-03-25,Tandoori House,Mexican,Burger,Dessert,4.0,191.63,14,Delivery
+FO000494,2026-05-25,Pizza Corner,Italian,Pasta,Snack,3.0,216.1,9,Pickup
+FO000495,2025-05-11,Tandoori House,Mexican,Biryani,Main Course,1.0,885.31,20,Dine-in
+FO000496,2026-08-17,Urban Cafe,Mexican,Tacos,Beverage,1.0,552.75,22,Dine-in
+FO000497,2026-10-08,Spice Hub,Italian,Paneer Curry,Beverage,3.0,530.51,22,Pickup
+FO000498,2026-01-02,Pizza Corner,Chinese,Tacos,Snack,5.0,494.67,22,Dine-in
+FO000499,2025-09-24,Pizza Corner,Indian,Salad,Snack,4.0,683.35,23,Pickup
+FO000500,2025-11-14,Pizza Corner,Chinese,Burger,Snack,3.0,567.62,12,Pickup
+FO000501,2026-06-03,Spice Hub,Italian,Biryani,Snack,3.0,202.91,20,Delivery
+FO000502,2025-09-08,Tandoori House,Italian,Salad,Beverage,4.0,164.01,12,Dine-in
+FO000503,2025-02-03,Urban Cafe,Healthy,Paneer Curry,Beverage,2.0,328.32,13,Pickup
+FO000504,2026-02-03,Green Bowl,Chinese,Noodles,Beverage,1.0,793.44,10,Delivery
+FO000505,2026-05-10,Spice Hub,Italian,Pasta,Beverage,2.0,409.83,8,Delivery
+FO000506,2025-04-07,Pizza Corner,Indian,Salad,Main Course,1.0,795.27,17,Delivery
+FO000507,2025-08-29,Tandoori House,Indian,Noodles,Snack,2.0,549.67,9,Pickup
+FO000508,2025-11-09,Spice Hub,Italian,Pizza,Main Course,5.0,842.2,11,Delivery
+FO000509,2026-02-15,Spice Hub,Chinese,Salad,Dessert,3.0,805.24,11,Pickup
+FO000510,2025-12-07,Pizza Corner,Mexican,Biryani,Main Course,3.0,388.29,17,Delivery
+FO000511,2026-05-21,Green Bowl,Healthy,Paneer Curry,Dessert,4.0,531.94,15,Pickup
+FO000512,2026-02-25,Tandoori House,Indian,Tacos,Beverage,2.0,661.97,23,Pickup
+FO000513,2026-04-23,Urban Cafe,Indian,Salad,Main Course,4.0,,18,Dine-in
+FO000514,2025-02-15,Pizza Corner,Italian,Noodles,Snack,3.0,211.12,10,Dine-in
+FO000515,2026-09-08,Tandoori House,Indian,Tacos,Main Course,3.0,678.64,12,Delivery
+FO000516,2025-10-15,Tandoori House,Chinese,Tacos,Main Course,2.0,829.92,11,Delivery
+FO000517,2025-10-11,Spice Hub,Mexican,Burger,Beverage,5.0,328.99,15,Pickup
+FO000518,2026-05-25,Pizza Corner,Indian,Biryani,Main Course,5.0,403.09,9,Delivery
+FO000519,2025-10-05,Urban Cafe,Mexican,Tacos,Beverage,1.0,797.03,14,Pickup
+FO000520,2026-06-09,Green Bowl,Indian,Pasta,Dessert,1.0,298.27,13,Delivery
+FO000521,2026-07-06,Pizza Corner,Mexican,Tacos,Main Course,4.0,839.39,9,Pickup
+FO000522,2025-12-30,Tandoori House,Mexican,Tacos,Main Course,3.0,195.71,22,Dine-in
+FO000523,2026-01-14,Green Bowl,Indian,Burger,Beverage,4.0,286.71,13,Delivery
+FO000524,2026-08-07,Urban Cafe,Italian,Biryani,Snack,2.0,109.06,8,Pickup
+FO000525,2026-05-15,Spice Hub,Italian,Burger,Snack,4.0,156.67,19,Dine-in
+FO000526,2026-05-20,Pizza Corner,Healthy,Burger,Snack,1.0,289.18,18,Dine-in
+FO000527,2026-04-13,Urban Cafe,Indian,Noodles,Beverage,5.0,617.22,13,Delivery
+FO000528,2026-06-18,Pizza Corner,Mexican,Pasta,Snack,4.0,244.71,14,Delivery
+FO000529,2026-05-30,Urban Cafe,Italian,Pasta,Snack,4.0,850.23,11,Pickup
+FO000530,2026-06-15,Tandoori House,Healthy,Biryani,Main Course,1.0,365.91,13,Pickup
+FO000531,2025-09-29,Pizza Corner,Mexican,Tacos,Dessert,5.0,505.3,10,Dine-in
+FO000532,2026-05-03,Green Bowl,Chinese,Noodles,Beverage,2.0,625.27,10,Dine-in
+FO000533,2025-12-11,Tandoori House,Indian,Pizza,Beverage,1.0,191.81,14,Delivery
+FO000534,2026-07-27,Green Bowl,Italian,Noodles,Main Course,3.0,643.92,21,Dine-in
+FO000535,2025-11-27,Green Bowl,Healthy,Biryani,Main Course,5.0,178.86,10,Dine-in
+FO000536,2025-03-06,Spice Hub,Italian,Pizza,Beverage,3.0,757.55,21,Dine-in
+FO000537,2026-06-30,Pizza Corner,Italian,Noodles,Dessert,1.0,480.22,21,Dine-in
+FO000538,2025-12-04,Tandoori House,Italian,Biryani,Snack,5.0,153.3,8,Dine-in
+FO000539,2025-01-28,Green Bowl,Chinese,Pizza,Main Course,4.0,660.26,12,Dine-in
+FO000540,2026-07-07,Urban Cafe,Healthy,Pizza,Beverage,4.0,142.79,17,Delivery
+FO000541,2025-02-03,Pizza Corner,Indian,Pasta,Dessert,3.0,879.12,10,Dine-in
+FO000542,2025-03-15,Green Bowl,Italian,Pizza,Snack,1.0,451.97,14,Pickup
+FO000543,2026-04-21,Urban Cafe,Healthy,Tacos,Snack,4.0,393.99,19,Pickup
+FO000544,2025-04-14,Spice Hub,Chinese,Tacos,Dessert,1.0,337.95,8,Pickup
+FO000545,2025-06-30,Tandoori House,Italian,Noodles,Main Course,2.0,448.93,18,Delivery
+FO000546,2025-09-26,Pizza Corner,Mexican,Biryani,Snack,3.0,,12,Dine-in
+FO000547,2026-10-14,Tandoori House,Indian,Noodles,Main Course,3.0,506.53,20,Delivery
+FO000548,2026-01-13,Urban Cafe,Chinese,Pizza,Main Course,2.0,607.52,11,Pickup
+FO000549,2026-10-12,Tandoori House,Mexican,Biryani,Dessert,1.0,127.06,19,Dine-in
+FO000550,2026-04-30,Green Bowl,Indian,Pasta,Snack,1.0,778.38,20,Dine-in
+FO000551,2025-07-12,Tandoori House,Chinese,Biryani,Dessert,1.0,513.29,14,Dine-in
+FO000552,2026-01-11,Pizza Corner,Italian,Pasta,Snack,5.0,509.59,15,Dine-in
+FO000553,2025-08-13,Tandoori House,Healthy,Salad,Beverage,1.0,286.93,14,Delivery
+FO000554,2025-05-25,Pizza Corner,Indian,Burger,Main Course,4.0,143.37,20,Delivery
+FO000555,2025-12-24,Pizza Corner,Italian,Noodles,Beverage,2.0,355.57,14,Delivery
+FO000556,2026-07-22,Spice Hub,Mexican,Burger,Dessert,2.0,751.16,23,Pickup
+FO000557,2026-06-13,Green Bowl,Chinese,Noodles,Dessert,1.0,528.57,10,Pickup
+FO000558,2025-06-27,Tandoori House,Italian,Noodles,Main Course,1.0,296.17,14,Delivery
+FO000559,2025-06-23,Tandoori House,Italian,Noodles,Dessert,5.0,566.34,16,Delivery
+FO000560,2026-07-29,Green Bowl,Healthy,Tacos,Dessert,4.0,368.06,16,Delivery
+FO000561,2026-02-27,Tandoori House,Mexican,Tacos,Beverage,2.0,263.43,15,Pickup
+FO000562,2025-11-28,Urban Cafe,Italian,Pasta,Snack,3.0,686.71,23,Pickup
+FO000563,2026-07-05,Pizza Corner,Indian,Pasta,Main Course,5.0,217.15,15,Delivery
+FO000564,2025-01-28,Urban Cafe,Chinese,Noodles,Beverage,2.0,559.6,10,Delivery
+FO000565,2026-05-19,Urban Cafe,Healthy,Pasta,Main Course,5.0,681.62,14,Pickup
+FO000566,2025-11-17,Tandoori House,Italian,Burger,Beverage,3.0,130.55,8,Delivery
+FO000567,2025-11-21,Tandoori House,Chinese,Pizza,Snack,,650.49,12,Delivery
+FO000568,2026-03-14,Tandoori House,Mexican,Salad,Main Course,5.0,89.39,15,Delivery
+FO000569,2025-05-31,Green Bowl,Healthy,Tacos,Beverage,3.0,745.68,9,Pickup
+FO000570,2026-08-12,Tandoori House,Indian,Pasta,Snack,1.0,308.05,15,Delivery
+FO000571,2025-02-26,Pizza Corner,Healthy,Biryani,Beverage,1.0,206.01,11,Pickup
+FO000572,2026-01-25,Tandoori House,Chinese,Biryani,Snack,4.0,186.89,22,Pickup
+FO000573,2025-11-15,Urban Cafe,Italian,Pizza,Snack,4.0,437.28,10,Delivery
+FO000574,2026-10-26,Green Bowl,Chinese,Tacos,Main Course,5.0,316.28,15,Pickup
+FO000575,2026-03-12,Pizza Corner,Indian,Paneer Curry,Main Course,1.0,464.4,10,Delivery
+FO000576,2025-09-12,Green Bowl,Chinese,Pasta,Beverage,3.0,773.36,15,Delivery
+FO000577,2025-10-09,Tandoori House,Healthy,Pizza,Dessert,2.0,166.08,15,Dine-in
+FO000578,2025-06-14,Tandoori House,Healthy,Paneer Curry,Main Course,5.0,293.63,15,Dine-in
+FO000579,2025-02-04,Spice Hub,Chinese,Noodles,Main Course,,172.92,15,Delivery
+FO000580,2025-10-24,Urban Cafe,Mexican,Paneer Curry,Beverage,2.0,602.41,15,Delivery
+FO000581,2025-01-15,Green Bowl,Mexican,Salad,Beverage,4.0,590.91,12,Pickup
+FO000582,2026-03-17,Pizza Corner,Italian,Paneer Curry,Snack,4.0,,22,Delivery
+FO000583,2026-08-27,Green Bowl,Healthy,Biryani,Dessert,2.0,678.21,18,Delivery
+FO000584,2025-03-05,Pizza Corner,Indian,Pasta,Dessert,3.0,653.55,17,Delivery
+FO000585,2026-10-13,Green Bowl,Healthy,Tacos,Beverage,2.0,211.62,14,Dine-in
+FO000586,2025-03-02,Spice Hub,Italian,Paneer Curry,Dessert,2.0,751.73,20,Delivery
+FO000587,2025-11-14,Urban Cafe,Indian,Pizza,Snack,1.0,85.99,18,Pickup
+FO000588,2026-02-22,Urban Cafe,Mexican,Pasta,Main Course,4.0,666.24,10,Dine-in
+FO000589,2026-03-05,Urban Cafe,Healthy,Paneer Curry,Main Course,3.0,747.95,14,Dine-in
+FO000590,2025-09-14,Urban Cafe,Chinese,Pasta,Dessert,4.0,265.81,22,Dine-in
+FO000591,2025-01-30,Tandoori House,Italian,Paneer Curry,Main Course,5.0,335.67,22,Delivery
+FO000592,2026-06-08,Spice Hub,Healthy,Salad,Main Course,2.0,278.52,23,Delivery
+FO000593,2025-11-06,Urban Cafe,Italian,Pasta,Beverage,1.0,752.01,20,Pickup
+FO000594,2025-06-26,Green Bowl,Chinese,Biryani,Snack,2.0,425.12,23,Dine-in
+FO000595,2025-10-29,Pizza Corner,Mexican,Pizza,Main Course,2.0,378.04,12,Pickup
+FO000596,2025-10-17,Spice Hub,Indian,Burger,Dessert,3.0,491.85,23,Pickup
+FO000597,2026-02-04,Pizza Corner,Chinese,Salad,Beverage,5.0,679.04,23,Dine-in
+FO000598,2025-12-11,Spice Hub,Healthy,Noodles,Snack,5.0,621.6,19,Dine-in
+FO000599,2026-02-06,Spice Hub,Indian,Burger,Main Course,4.0,660.36,18,Dine-in
+FO000600,2026-09-23,Urban Cafe,Italian,Biryani,Beverage,4.0,856.91,18,Pickup
+FO000601,2026-09-09,Urban Cafe,Mexican,Salad,Main Course,2.0,289.21,9,Dine-in
+FO000602,2025-01-05,Pizza Corner,Italian,Salad,Main Course,2.0,249.65,9,Delivery
+FO000603,2026-03-07,Tandoori House,Chinese,Paneer Curry,Dessert,5.0,612.89,11,Delivery
+FO000604,2025-05-26,Tandoori House,Healthy,Paneer Curry,Dessert,2.0,199.77,12,Pickup
+FO000605,2025-02-15,Spice Hub,Healthy,Tacos,Dessert,2.0,607.64,8,Dine-in
+FO000606,2025-03-03,Green Bowl,Healthy,Biryani,Snack,5.0,863.94,20,Pickup
+FO000607,2026-03-03,Spice Hub,Indian,Salad,Beverage,5.0,455.93,8,Delivery
+FO000608,2026-10-26,Pizza Corner,Healthy,Paneer Curry,Main Course,4.0,256.06,13,Dine-in
+FO000609,2026-06-07,Urban Cafe,Italian,Burger,Dessert,4.0,895.8,9,Pickup
+FO000610,2025-03-30,Pizza Corner,Mexican,Pizza,Main Course,4.0,394.0,17,Delivery
+FO000611,2025-05-21,Pizza Corner,Chinese,Tacos,Dessert,3.0,173.37,23,Delivery
+FO000612,2026-07-05,Pizza Corner,Italian,Tacos,Beverage,4.0,421.22,17,Delivery
+FO000613,2026-02-10,Spice Hub,Mexican,Noodles,Dessert,1.0,151.88,16,Dine-in
+FO000614,2025-12-14,Tandoori House,Italian,Salad,Beverage,1.0,148.22,17,Pickup
+FO000615,2025-05-03,Green Bowl,Italian,Biryani,Main Course,5.0,118.96,12,Delivery
+FO000616,2026-06-08,Pizza Corner,Chinese,Biryani,Beverage,1.0,452.45,13,Pickup
+FO000617,2026-07-12,Pizza Corner,Healthy,Tacos,Beverage,4.0,456.39,13,Pickup
+FO000618,2025-07-21,Green Bowl,Indian,Pasta,Snack,2.0,681.41,22,Pickup
+FO000619,2026-10-30,Tandoori House,Chinese,Biryani,Beverage,4.0,526.21,13,Dine-in
+FO000620,2025-11-15,Tandoori House,Healthy,Biryani,Snack,3.0,785.33,11,Pickup
+FO000621,2025-01-27,Pizza Corner,Italian,Pizza,Snack,2.0,795.77,16,Delivery
+FO000622,2026-10-17,Pizza Corner,Indian,Biryani,Beverage,4.0,220.15,20,Pickup
+FO000623,2025-05-11,Urban Cafe,Indian,Noodles,Beverage,5.0,,14,Dine-in
+FO000624,2025-03-05,Green Bowl,Healthy,Burger,Main Course,4.0,659.19,8,Delivery
+FO000625,2025-10-31,Spice Hub,Healthy,Salad,Dessert,2.0,88.19,14,Pickup
+FO000626,2026-02-20,Pizza Corner,Chinese,Pizza,Main Course,5.0,402.98,21,Dine-in
+FO000627,2026-02-25,Spice Hub,Chinese,Tacos,Main Course,5.0,124.28,21,Dine-in
+FO000628,2026-10-04,Urban Cafe,Chinese,Pasta,Snack,2.0,456.28,20,Pickup
+FO000629,2025-11-06,Green Bowl,Healthy,Salad,Dessert,4.0,448.74,16,Pickup
+FO000630,2025-03-26,Pizza Corner,Indian,Tacos,Dessert,4.0,773.51,23,Dine-in
+FO000631,2025-10-31,Spice Hub,Indian,Pizza,Snack,,609.39,9,Dine-in
+FO000632,2026-07-16,Pizza Corner,Chinese,Pasta,Snack,5.0,410.06,9,Pickup
+FO000633,2025-01-08,Spice Hub,Healthy,Burger,Snack,2.0,497.67,19,Pickup
+FO000634,2025-07-04,Pizza Corner,Indian,Noodles,Main Course,2.0,530.29,20,Dine-in
+FO000635,2026-03-29,Pizza Corner,Chinese,Salad,Snack,5.0,265.45,11,Pickup
+FO000636,2025-05-15,Spice Hub,Indian,Noodles,Dessert,1.0,715.83,12,Dine-in
+FO000637,2025-11-22,Urban Cafe,Chinese,Biryani,Beverage,1.0,463.11,11,Pickup
+FO000638,2025-04-22,Green Bowl,Mexican,Noodles,Snack,5.0,603.03,11,Pickup
+FO000639,2025-03-26,Green Bowl,Indian,Pasta,Dessert,5.0,106.12,8,Pickup
+FO000640,2026-05-08,Tandoori House,Italian,Biryani,Main Course,1.0,170.92,11,Dine-in
+FO000641,2026-06-05,Tandoori House,Indian,Pasta,Dessert,5.0,563.43,19,Dine-in
+FO000642,2025-01-24,Green Bowl,Indian,Tacos,Snack,4.0,690.27,19,Delivery
+FO000643,2025-12-25,Green Bowl,Italian,Burger,Beverage,5.0,343.05,22,Dine-in
+FO000644,2025-10-09,Tandoori House,Chinese,Pizza,Dessert,2.0,855.5,23,Delivery
+FO000645,2025-09-04,Pizza Corner,Mexican,Pasta,Dessert,2.0,776.43,11,Dine-in
+FO000646,2026-04-12,Spice Hub,Indian,Noodles,Dessert,2.0,510.08,18,Dine-in
+FO000647,2026-03-03,Urban Cafe,Indian,Pizza,Beverage,4.0,604.72,14,Pickup
+FO000648,2025-04-04,Pizza Corner,Healthy,Salad,Beverage,5.0,566.4,12,Delivery
+FO000649,2026-10-13,Tandoori House,Italian,Noodles,Dessert,5.0,330.64,18,Dine-in
+FO000650,2025-05-30,Urban Cafe,Healthy,Paneer Curry,Dessert,2.0,131.35,14,Dine-in
+FO000651,2026-01-02,Urban Cafe,Indian,Pizza,Snack,1.0,739.75,17,Pickup
+FO000652,2025-04-13,Pizza Corner,Chinese,Tacos,Beverage,3.0,457.66,11,Delivery
+FO000653,2026-02-07,Spice Hub,Mexican,Pizza,Dessert,3.0,770.32,14,Dine-in
+FO000654,2025-01-18,Tandoori House,Chinese,Tacos,Dessert,1.0,387.12,9,Delivery
+FO000655,2025-06-30,Tandoori House,Chinese,Pasta,Snack,5.0,91.71,8,Pickup
+FO000656,2025-11-02,Green Bowl,Indian,Burger,Dessert,1.0,184.07,20,Pickup
+FO000657,2025-03-07,Urban Cafe,Chinese,Salad,Beverage,3.0,208.93,22,Pickup
+FO000658,2025-11-29,Green Bowl,Mexican,Tacos,Snack,,679.4,9,Dine-in
+FO000659,2026-01-24,Green Bowl,Chinese,Salad,Snack,4.0,106.3,18,Dine-in
+FO000660,2026-09-25,Tandoori House,Indian,Tacos,Snack,4.0,751.85,18,Dine-in
+FO000661,2025-09-08,Pizza Corner,Mexican,Tacos,Main Course,5.0,646.35,12,Dine-in
+FO000662,2026-05-03,Green Bowl,Mexican,Pasta,Main Course,1.0,345.14,14,Dine-in
+FO000663,2025-06-26,Pizza Corner,Italian,Tacos,Main Course,2.0,508.01,12,Dine-in
+FO000664,2026-10-12,Green Bowl,Chinese,Tacos,Beverage,2.0,844.38,9,Dine-in
+FO000665,2026-10-08,Spice Hub,Mexican,Biryani,Snack,5.0,137.19,21,Delivery
+FO000666,2026-05-22,Urban Cafe,Mexican,Paneer Curry,Main Course,2.0,377.95,12,Dine-in
+FO000667,2025-05-23,Urban Cafe,Italian,Salad,Beverage,3.0,400.62,16,Delivery
+FO000668,2026-10-17,Green Bowl,Chinese,Biryani,Snack,4.0,869.8,9,Delivery
+FO000669,2025-09-25,Tandoori House,Italian,Salad,Beverage,5.0,879.69,8,Delivery
+FO000670,2025-06-16,Pizza Corner,Indian,Pasta,Dessert,2.0,769.91,18,Dine-in
+FO000671,2025-09-26,Pizza Corner,Indian,Salad,Dessert,4.0,393.24,14,Dine-in
+FO000672,2025-04-23,Green Bowl,Chinese,Noodles,Snack,5.0,809.31,18,Pickup
+FO000673,2025-08-28,Urban Cafe,Italian,Burger,Main Course,2.0,476.93,22,Dine-in
+FO000674,2025-09-19,Urban Cafe,Mexican,Tacos,Main Course,5.0,608.13,22,Pickup
+FO000675,2026-10-29,Tandoori House,Chinese,Noodles,Main Course,2.0,840.88,9,Dine-in
+FO000676,2025-11-25,Spice Hub,Mexican,Paneer Curry,Main Course,2.0,283.42,12,Dine-in
+FO000677,2026-05-11,Tandoori House,Chinese,Pasta,Beverage,4.0,785.84,11,Delivery
+FO000678,2026-07-06,Urban Cafe,Italian,Burger,Dessert,2.0,407.38,10,Dine-in
+FO000679,2026-09-24,Tandoori House,Indian,Biryani,Dessert,3.0,794.41,15,Dine-in
+FO000680,2025-12-29,Tandoori House,Chinese,Pasta,Beverage,4.0,529.7,15,Pickup
+FO000681,2026-01-27,Tandoori House,Indian,Noodles,Snack,2.0,282.79,23,Delivery
+FO000682,2026-09-30,Tandoori House,Mexican,Burger,Beverage,2.0,707.73,21,Pickup
+FO000683,2026-04-01,Green Bowl,Mexican,Pasta,Beverage,4.0,174.42,8,Dine-in
+FO000684,2025-07-13,Green Bowl,Indian,Biryani,Snack,5.0,197.56,17,Pickup
+FO000685,2026-02-02,Spice Hub,Chinese,Salad,Main Course,1.0,201.5,11,Delivery
+FO000686,2026-01-23,Tandoori House,Mexican,Pasta,Beverage,5.0,769.07,23,Delivery
+FO000687,2026-01-28,Green Bowl,Mexican,Tacos,Snack,1.0,794.43,12,Dine-in
+FO000688,2026-03-12,Spice Hub,Mexican,Noodles,Beverage,4.0,549.54,9,Pickup
+FO000689,2025-10-16,Urban Cafe,Mexican,Biryani,Snack,3.0,309.09,23,Delivery
+FO000690,2025-04-15,Tandoori House,Indian,Pasta,Dessert,1.0,403.25,19,Dine-in
+FO000691,2025-09-02,Urban Cafe,Mexican,Pizza,Dessert,4.0,230.55,19,Delivery
+FO000692,2026-06-10,Urban Cafe,Healthy,Tacos,Beverage,1.0,83.13,18,Pickup
+FO000693,2026-10-31,Urban Cafe,Italian,Salad,Snack,2.0,768.5,19,Delivery
+FO000694,2026-03-04,Spice Hub,Healthy,Burger,Snack,3.0,239.6,11,Delivery
+FO000695,2026-06-05,Green Bowl,Healthy,Noodles,Dessert,4.0,144.86,18,Dine-in
+FO000696,2025-05-09,Urban Cafe,Healthy,Salad,Beverage,2.0,188.08,11,Pickup
+FO000697,2026-06-09,Green Bowl,Healthy,Pasta,Dessert,1.0,839.37,22,Dine-in
+FO000698,2025-10-04,Green Bowl,Indian,Biryani,Beverage,4.0,377.85,14,Delivery
+FO000699,2026-04-16,Pizza Corner,Chinese,Biryani,Beverage,1.0,611.43,22,Pickup
+FO000700,2026-03-05,Green Bowl,Healthy,Pasta,Main Course,3.0,105.65,13,Pickup
+FO000701,2026-05-24,Spice Hub,Indian,Burger,Beverage,4.0,513.88,10,Delivery
+FO000702,2026-05-06,Spice Hub,Indian,Burger,Snack,4.0,692.27,13,Dine-in
+FO000703,2026-03-09,Urban Cafe,Chinese,Biryani,Main Course,1.0,133.78,16,Dine-in
+FO000704,2025-10-07,Urban Cafe,Chinese,Noodles,Snack,4.0,325.12,19,Delivery
+FO000705,2026-06-29,Green Bowl,Mexican,Paneer Curry,Snack,1.0,344.06,8,Dine-in
+FO000706,2026-04-29,Pizza Corner,Italian,Tacos,Dessert,1.0,807.58,9,Dine-in
+FO000707,2025-04-03,Tandoori House,Mexican,Pizza,Beverage,2.0,625.43,12,Pickup
+FO000708,2025-06-24,Pizza Corner,Chinese,Burger,Snack,4.0,789.6,19,Dine-in
+FO000709,2025-06-29,Urban Cafe,Italian,Salad,Dessert,2.0,387.94,12,Pickup
+FO000710,2025-07-24,Urban Cafe,Chinese,Pasta,Beverage,5.0,564.73,15,Delivery
+FO000711,2026-04-16,Urban Cafe,Healthy,Burger,Dessert,1.0,504.55,23,Delivery
+FO000712,2025-01-08,Urban Cafe,Healthy,Burger,Snack,3.0,306.4,10,Delivery
+FO000713,2025-06-24,Green Bowl,Healthy,Pasta,Dessert,3.0,426.38,11,Dine-in
+FO000714,2025-11-23,Pizza Corner,Indian,Tacos,Dessert,3.0,280.88,18,Delivery
+FO000715,2025-04-30,Urban Cafe,Indian,Pasta,Beverage,2.0,93.28,20,Pickup
+FO000716,2025-05-06,Pizza Corner,Italian,Salad,Dessert,1.0,873.9,13,Dine-in
+FO000717,2025-10-16,Urban Cafe,Mexican,Salad,Beverage,4.0,865.62,11,Pickup
+FO000718,2026-02-07,Green Bowl,Healthy,Salad,Main Course,4.0,755.86,10,Delivery
+FO000719,2025-08-12,Urban Cafe,Mexican,Paneer Curry,Snack,4.0,223.15,23,Pickup
+FO000720,2026-10-09,Green Bowl,Chinese,Biryani,Main Course,5.0,96.54,17,Pickup
+FO000721,2025-10-08,Spice Hub,Chinese,Tacos,Snack,5.0,240.68,14,Delivery
+FO000722,2026-10-31,Green Bowl,Healthy,Salad,Beverage,4.0,794.68,13,Dine-in
+FO000723,2026-01-12,Green Bowl,Mexican,Noodles,Main Course,3.0,205.62,10,Pickup
+FO000724,2025-09-08,Green Bowl,Healthy,Paneer Curry,Beverage,1.0,271.49,12,Delivery
+FO000725,2025-03-18,Tandoori House,Chinese,Biryani,Beverage,2.0,646.83,20,Dine-in
+FO000726,2026-05-06,Pizza Corner,Chinese,Salad,Beverage,2.0,471.49,15,Pickup
+FO000727,2025-12-27,Green Bowl,Mexican,Burger,Beverage,2.0,616.28,22,Pickup
+FO000728,2026-10-05,Tandoori House,Italian,Pasta,Snack,5.0,541.71,16,Delivery
+FO000729,2026-10-10,Pizza Corner,Healthy,Pizza,Beverage,1.0,549.43,17,Pickup
+FO000730,2025-12-17,Pizza Corner,Indian,Salad,Beverage,4.0,795.64,19,Dine-in
+FO000731,2025-06-14,Green Bowl,Mexican,Noodles,Beverage,3.0,258.56,10,Delivery
+FO000732,2025-08-12,Urban Cafe,Healthy,Burger,Beverage,2.0,194.15,15,Dine-in
+FO000733,2025-02-17,Urban Cafe,Italian,Noodles,Dessert,4.0,412.02,21,Dine-in
+FO000734,2025-04-15,Tandoori House,Indian,Pasta,Snack,4.0,518.39,16,Dine-in
+FO000735,2025-10-04,Pizza Corner,Indian,Pizza,Dessert,5.0,482.15,12,Pickup
+FO000736,2025-04-28,Spice Hub,Italian,Salad,Snack,1.0,522.68,17,Delivery
+FO000737,2026-07-28,Urban Cafe,Mexican,Biryani,Main Course,2.0,478.67,18,Dine-in
+FO000738,2026-07-26,Tandoori House,Mexican,Pasta,Dessert,5.0,504.66,22,Dine-in
+FO000739,2025-04-28,Urban Cafe,Indian,Burger,Dessert,5.0,844.17,20,Pickup
+FO000740,2025-06-23,Green Bowl,Mexican,Tacos,Snack,2.0,120.9,9,Pickup
+FO000741,2026-07-08,Urban Cafe,Healthy,Burger,Main Course,3.0,852.15,17,Pickup
+FO000742,2025-07-01,Pizza Corner,Mexican,Pizza,Main Course,,,18,Dine-in
+FO000743,2025-06-24,Tandoori House,Chinese,Salad,Beverage,1.0,119.22,19,Dine-in
+FO000744,2026-05-15,Green Bowl,Indian,Burger,Dessert,1.0,123.83,8,Pickup
+FO000745,2025-09-26,Spice Hub,Italian,Biryani,Snack,1.0,548.65,12,Dine-in
+FO000746,2026-07-14,Urban Cafe,Mexican,Biryani,Beverage,1.0,645.04,12,Pickup
+FO000747,2025-12-21,Spice Hub,Healthy,Burger,Snack,2.0,506.63,11,Delivery
+FO000748,2025-05-20,Urban Cafe,Mexican,Salad,Beverage,4.0,448.07,20,Pickup
+FO000749,2025-04-13,Urban Cafe,Italian,Tacos,Beverage,4.0,307.19,15,Dine-in
+FO000750,2026-04-06,Spice Hub,Italian,Burger,Dessert,4.0,577.4,13,Dine-in
+FO000751,2025-10-27,Spice Hub,Indian,Tacos,Beverage,4.0,816.02,16,Delivery
+FO000752,2025-10-26,Urban Cafe,Mexican,Salad,Main Course,4.0,426.38,8,Dine-in
+FO000753,2026-03-31,Spice Hub,Mexican,Paneer Curry,Main Course,2.0,650.47,11,Dine-in
+FO000754,2025-07-05,Urban Cafe,Indian,Biryani,Beverage,2.0,94.24,16,Delivery
+FO000755,2026-10-31,Spice Hub,Chinese,Pasta,Snack,,448.95,11,Pickup
+FO000756,2025-12-15,Green Bowl,Indian,Paneer Curry,Snack,4.0,704.61,15,Dine-in
+FO000757,2026-07-30,Pizza Corner,Healthy,Pasta,Main Course,3.0,770.37,13,Pickup
+FO000758,2026-06-05,Tandoori House,Indian,Biryani,Dessert,5.0,520.39,22,Dine-in
+FO000759,2026-02-11,Pizza Corner,Italian,Tacos,Main Course,2.0,544.54,22,Pickup
+FO000760,2025-03-08,Spice Hub,Chinese,Noodles,Main Course,4.0,193.52,23,Delivery
+FO000761,2026-05-08,Spice Hub,Healthy,Burger,Snack,4.0,322.3,14,Pickup
+FO000762,2025-02-17,Pizza Corner,Chinese,Paneer Curry,Main Course,4.0,627.27,12,Pickup
+FO000763,2026-05-09,Pizza Corner,Healthy,Biryani,Main Course,1.0,708.83,16,Pickup
+FO000764,2026-09-02,Urban Cafe,Indian,Salad,Main Course,1.0,147.17,21,Delivery
+FO000765,2025-12-23,Tandoori House,Indian,Noodles,Snack,4.0,867.97,20,Dine-in
+FO000766,2026-10-07,Pizza Corner,Italian,Paneer Curry,Snack,5.0,861.93,16,Pickup
+FO000767,2026-02-24,Green Bowl,Italian,Paneer Curry,Beverage,3.0,233.83,17,Pickup
+FO000768,2025-12-20,Pizza Corner,Mexican,Salad,Main Course,1.0,117.07,16,Pickup
+FO000769,2025-12-22,Spice Hub,Italian,Pasta,Dessert,5.0,359.65,15,Pickup
+FO000770,2025-04-07,Pizza Corner,Italian,Pizza,Beverage,5.0,866.13,9,Dine-in
+FO000771,2025-02-14,Urban Cafe,Chinese,Pasta,Snack,5.0,443.27,13,Pickup
+FO000772,2025-02-22,Spice Hub,Healthy,Salad,Beverage,3.0,337.23,21,Delivery
+FO000773,2026-08-22,Pizza Corner,Italian,Tacos,Dessert,4.0,813.64,21,Pickup
+FO000774,2025-04-15,Spice Hub,Chinese,Burger,Main Course,1.0,,17,Pickup
+FO000775,2026-03-03,Spice Hub,Indian,Paneer Curry,Beverage,1.0,851.69,23,Pickup
+FO000776,2025-07-09,Spice Hub,Italian,Pizza,Dessert,1.0,743.38,23,Delivery
+FO000777,2025-09-14,Tandoori House,Italian,Noodles,Main Course,3.0,394.53,16,Pickup
+FO000778,2026-04-03,Tandoori House,Indian,Pasta,Dessert,5.0,725.64,20,Delivery
+FO000779,2026-08-07,Green Bowl,Healthy,Pasta,Beverage,1.0,700.02,11,Pickup
+FO000780,2025-03-15,Urban Cafe,Mexican,Tacos,Main Course,3.0,555.49,15,Dine-in
+FO000781,2025-12-17,Green Bowl,Chinese,Pasta,Dessert,4.0,,14,Dine-in
+FO000782,2025-04-02,Pizza Corner,Mexican,Pizza,Main Course,3.0,,21,Dine-in
+FO000783,2025-05-15,Green Bowl,Indian,Noodles,Beverage,1.0,770.78,14,Delivery
+FO000784,2026-04-23,Urban Cafe,Indian,Pizza,Beverage,,730.49,13,Dine-in
+FO000785,2025-01-20,Urban Cafe,Mexican,Paneer Curry,Dessert,5.0,823.19,14,Delivery
+FO000786,2025-06-22,Green Bowl,Indian,Pasta,Snack,3.0,733.98,21,Pickup
+FO000787,2026-01-09,Urban Cafe,Healthy,Pasta,Main Course,5.0,835.18,17,Dine-in
+FO000788,2025-05-25,Green Bowl,Indian,Tacos,Snack,5.0,226.1,9,Delivery
+FO000789,2025-09-15,Spice Hub,Mexican,Noodles,Beverage,4.0,307.4,8,Delivery
+FO000790,2026-01-25,Spice Hub,Italian,Burger,Beverage,5.0,451.02,13,Pickup
+FO000791,2026-08-27,Tandoori House,Indian,Paneer Curry,Main Course,4.0,279.11,21,Delivery
+FO000792,2025-02-22,Urban Cafe,Indian,Pasta,Beverage,4.0,815.3,21,Pickup
+FO000793,2025-12-06,Green Bowl,Indian,Tacos,Snack,1.0,227.41,10,Dine-in
+FO000794,2026-02-25,Spice Hub,Mexican,Pizza,Beverage,1.0,456.29,8,Pickup
+FO000795,2025-11-17,Tandoori House,Healthy,Noodles,Dessert,1.0,507.74,12,Delivery
+FO000796,2025-01-13,Urban Cafe,Chinese,Pizza,Dessert,5.0,795.9,21,Delivery
+FO000797,2026-05-25,Urban Cafe,Chinese,Pizza,Dessert,3.0,292.5,14,Delivery
+FO000798,2025-06-05,Green Bowl,Healthy,Pizza,Beverage,,875.07,8,Dine-in
+FO000799,2025-03-08,Tandoori House,Italian,Paneer Curry,Beverage,3.0,319.4,16,Pickup
+FO000800,2025-10-29,Pizza Corner,Chinese,Salad,Main Course,3.0,213.65,18,Dine-in
+FO000801,2025-05-08,Spice Hub,Italian,Burger,Main Course,4.0,287.94,9,Dine-in
+FO000802,2026-02-27,Spice Hub,Chinese,Paneer Curry,Main Course,4.0,802.48,18,Dine-in
+FO000803,2025-12-27,Urban Cafe,Chinese,Salad,Beverage,5.0,204.98,20,Delivery
+FO000804,2025-05-17,Spice Hub,Healthy,Salad,Beverage,1.0,106.17,8,Delivery
+FO000805,2026-09-07,Green Bowl,Mexican,Tacos,Dessert,2.0,319.1,8,Delivery
+FO000806,2026-08-12,Urban Cafe,Indian,Pizza,Beverage,1.0,526.53,21,Pickup
+FO000807,2025-07-30,Spice Hub,Italian,Tacos,Dessert,3.0,372.45,15,Pickup
+FO000808,2026-09-07,Pizza Corner,Healthy,Biryani,Dessert,4.0,211.79,9,Dine-in
+FO000809,2025-08-07,Urban Cafe,Italian,Biryani,Beverage,1.0,378.63,10,Delivery
+FO000810,2025-11-18,Urban Cafe,Indian,Paneer Curry,Beverage,4.0,647.91,21,Delivery
+FO000811,2026-01-14,Spice Hub,Italian,Burger,Main Course,1.0,437.61,21,Pickup
+FO000812,2025-07-02,Tandoori House,Italian,Paneer Curry,Beverage,3.0,549.63,23,Pickup
+FO000813,2026-02-06,Pizza Corner,Chinese,Tacos,Beverage,5.0,856.58,19,Pickup
+FO000814,2025-03-15,Urban Cafe,Healthy,Burger,Dessert,4.0,693.56,18,Dine-in
+FO000815,2026-02-09,Tandoori House,Indian,Pasta,Dessert,4.0,739.14,22,Dine-in
+FO000816,2026-09-20,Urban Cafe,Indian,Salad,Snack,5.0,316.17,22,Delivery
+FO000817,2025-08-05,Urban Cafe,Indian,Biryani,Main Course,3.0,499.34,8,Delivery
+FO000818,2025-03-31,Urban Cafe,Indian,Burger,Main Course,1.0,362.57,18,Delivery
+FO000819,2026-01-23,Spice Hub,Chinese,Pizza,Snack,3.0,477.31,20,Delivery
+FO000820,2025-07-19,Green Bowl,Chinese,Pasta,Dessert,2.0,171.74,23,Delivery
+FO000821,2026-05-13,Pizza Corner,Healthy,Noodles,Dessert,5.0,505.15,8,Pickup
+FO000822,2025-08-09,Green Bowl,Chinese,Pasta,Dessert,2.0,511.17,20,Delivery
+FO000823,2025-02-11,Green Bowl,Chinese,Biryani,Main Course,3.0,551.48,16,Pickup
+FO000824,2025-06-29,Urban Cafe,Italian,Noodles,Main Course,5.0,272.38,18,Pickup
+FO000825,2026-07-08,Tandoori House,Indian,Pasta,Beverage,4.0,261.59,23,Pickup
+FO000826,2025-01-02,Tandoori House,Mexican,Tacos,Snack,1.0,381.53,23,Dine-in
+FO000827,2026-08-16,Green Bowl,Healthy,Biryani,Snack,5.0,520.91,10,Delivery
+FO000828,2025-05-19,Pizza Corner,Indian,Burger,Beverage,2.0,356.16,15,Delivery
+FO000829,2025-07-02,Pizza Corner,Mexican,Tacos,Dessert,4.0,659.03,14,Dine-in
+FO000830,2026-05-16,Tandoori House,Italian,Burger,Main Course,5.0,559.8,15,Pickup
+FO000831,2026-09-17,Tandoori House,Healthy,Noodles,Beverage,5.0,172.54,14,Dine-in
+FO000832,2025-05-18,Tandoori House,Mexican,Salad,Main Course,4.0,263.6,21,Delivery
+FO000833,2026-09-03,Spice Hub,Healthy,Pasta,Beverage,4.0,575.78,22,Delivery
+FO000834,2026-05-27,Green Bowl,Healthy,Tacos,Main Course,1.0,516.2,18,Pickup
+FO000835,2025-01-18,Green Bowl,Mexican,Tacos,Dessert,5.0,358.14,18,Pickup
+FO000836,2025-10-06,Pizza Corner,Healthy,Biryani,Beverage,5.0,220.94,10,Delivery
+FO000837,2025-06-19,Green Bowl,Mexican,Pasta,Snack,2.0,834.75,13,Pickup
+FO000838,2025-02-24,Green Bowl,Healthy,Pizza,Main Course,1.0,448.54,12,Delivery
+FO000839,2026-09-11,Green Bowl,Italian,Pasta,Beverage,5.0,254.29,9,Pickup
+FO000840,2026-07-08,Green Bowl,Indian,Pasta,Snack,3.0,671.13,17,Dine-in
+FO000841,2026-08-08,Pizza Corner,Mexican,Pizza,Snack,1.0,289.85,18,Pickup
+FO000842,2026-03-01,Pizza Corner,Indian,Burger,Main Course,2.0,297.82,8,Dine-in
+FO000843,2026-05-03,Green Bowl,Italian,Pasta,Snack,4.0,758.19,15,Pickup
+FO000844,2026-02-14,Green Bowl,Mexican,Pasta,Beverage,4.0,824.44,16,Pickup
+FO000845,2025-02-01,Spice Hub,Healthy,Pasta,Main Course,4.0,463.83,15,Delivery
+FO000846,2025-04-11,Green Bowl,Chinese,Noodles,Dessert,2.0,598.48,11,Delivery
+FO000847,2026-08-18,Urban Cafe,Healthy,Biryani,Snack,,376.02,8,Pickup
+FO000848,2026-02-22,Spice Hub,Chinese,Tacos,Beverage,5.0,599.57,11,Dine-in
+FO000849,2025-08-05,Urban Cafe,Mexican,Pasta,Main Course,1.0,676.97,23,Pickup
+FO000512,2026-02-25,Tandoori House,Indian,Tacos,Beverage,2.0,661.97,23,Pickup
+FO000357,2025-01-13,Green Bowl,Chinese,Salad,Dessert,2.0,581.68,15,Dine-in
+FO000110,2025-04-25,Pizza Corner,Indian,Paneer Curry,Dessert,2.0,545.11,8,Delivery
+FO000684,2025-07-13,Green Bowl,Indian,Biryani,Snack,5.0,197.56,17,Pickup
+FO000039,2025-10-27,Green Bowl,Healthy,Pizza,Main Course,4.0,320.61,11,Dine-in
+FO000066,2025-07-28,Spice Hub,Chinese,Tacos,Dessert,2.0,491.92,20,Pickup
+FO000756,2025-12-15,Green Bowl,Indian,Paneer Curry,Snack,4.0,704.61,15,Dine-in
+FO000260,2026-02-05,Spice Hub,Indian,Biryani,Snack,3.0,216.28,10,Dine-in
+FO000790,2026-01-25,Spice Hub,Italian,Burger,Beverage,5.0,451.02,13,Pickup
+FO000467,2026-07-28,Pizza Corner,Chinese,Noodles,Dessert,4.0,,17,Delivery
+FO000705,2026-06-29,Green Bowl,Mexican,Paneer Curry,Snack,1.0,344.06,8,Dine-in
+FO000447,2025-06-13,Pizza Corner,Chinese,Salad,Dessert,1.0,654.26,17,Pickup
