@@ -6,7 +6,7 @@ pd.set_option("display.width", 150)
 pd.set_option("display.float_format", "{:,.2f}".format)
 
 # 1. LOAD AND INSPECT
-df = pd.read_csv("/content/22_restaurant_orders.csv")
+df = pd.read_csv("/22_restaurant_orders.csv")
 print("1. Shape:", df.shape)
 print("Columns:", list(df.columns))
 print(df.dtypes, "\n")
